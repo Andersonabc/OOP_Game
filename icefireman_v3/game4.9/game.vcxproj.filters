@@ -1,0 +1,3305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\fireman.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\firedoor.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fireballmovie.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fire.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FallWall.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyAI.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\elevator.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\door.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Chainelevator.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CgameMap.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bullet.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bloodcount.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Iceballmovie.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\icedoor.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\iceman.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ingamemovie.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Kakashi.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\lever.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\man.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Neji.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Orochimaru.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\poison.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RedButton.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rising.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sasuke.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SasukeFireball.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shikamaru.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shoot.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shurikan.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkillStart.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StartMovie.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stone.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\trap.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\water.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wind.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\yellowbutton.cpp">
+      <Filter>Mygame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\fireman.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Fireballmovie.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyAI.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\door.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Chainelevator.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CgameMap.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bullet.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bloodcount.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Iceballmovie.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\icedoor.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\iceman.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ingamemovie.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Kakashi.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\lever.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\man.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Neji.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Orochimaru.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\poison.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RedButton.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rising.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sasuke.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SasukeFireball.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shikamaru.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shoot.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shurikan.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkillStart.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StartMovie.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stone.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\trap.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\water.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wind.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\yellowbutton.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FallWall.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\firedoor.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fire.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\elevator.h">
+      <Filter>Mygame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\0.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\a.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\about.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\arrow.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Attacked.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Attacked2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\B.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap40.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap47.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap58.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap59.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap71.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bitmap83.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\blood_background.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\blood_green.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\blood_orange.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\blueDai.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Blue-Diamond.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_36.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_37.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_38.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\bullet_39.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\c.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\CH_A.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\CH_B.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\CH_C.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\chakura.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Combo20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Combo35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Combo36.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\d.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Die8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Die8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Die14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Die18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Down.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Down2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\elevator.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_magic.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_magic2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_magic3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_magic4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_attack_run6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttack.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttack2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked_jump1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked_jump2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_atttacked12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_defense1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_defense2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_hit.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_hit2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_hit3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire_hit4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball36.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball37.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball38.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball39.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Fireball40.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fireballmovie.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\winnerbackground.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\gamerover01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\gamerover02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\gamerover03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Hit.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Housenka30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Hurt.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Hurt1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Hurt2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Hurt2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Hurt3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Hurt4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_jump1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_jump2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_magic.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_magic2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_magic3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_magic4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_attack_run6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttack.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttack2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_atttacked6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ice_atttacked12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_defense1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_defense2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_hit.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_hit2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_hit3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ice_hit4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\iceattac.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\iceballmovie.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedoor6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedown00.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedown01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedown02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icedown03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icejump.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icejump00.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icejump01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icejump02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icejump03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\iceman.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\iceman2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun00.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun05.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun06.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun07.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun08.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun09.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icemanrun15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\icerun2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\image.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ingame.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ingame_menu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\ingame_retry.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\INIT.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\instructor01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\instructor02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\instructor03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\instructor04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Jump.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Jump.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Jump2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Jump2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Jump3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Jump3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Jump4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Jump4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\jumpKick6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\JumpKick6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi001.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi002.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi003.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi004.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi005.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi006.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi007.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi008.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi009.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi010.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi011.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi012.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi013.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi014.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi015.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi016.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi017.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi018.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi101.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi102.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi103.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi104.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi105.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi106.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi107.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi108.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi109.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi110.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi111.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi201.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi202.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi203.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi204.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi205.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi206.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi207.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi208.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi209.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi210.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi211.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi212.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi213.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi214.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi301.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi302.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi303.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi304.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi305.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi306.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi307.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi308.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi309.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi310.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi311.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi312.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi313.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi314.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi315.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi316.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi317.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi401.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi402.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi403.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi404.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi405.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi406.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi407.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi408.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi409.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi410.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi411.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi412.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi413.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi414.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi415.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi501.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi502.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi503.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi504.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi505.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi506.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi507.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi508.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi509.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi510.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi601.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi602.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi603.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi604.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi605.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi606.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi607.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi608.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi609.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi610.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi611.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi612.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi613.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi614.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi615.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi616.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi617.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi701.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi702.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi703.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi704.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi705.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi706.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi707.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi708.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi709.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi710.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi711.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi712.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi713.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi801.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi802.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi803.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi804.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi805.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi806.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi807.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi808.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi809.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi901.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi902.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi903.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi904.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi905.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi906.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi907.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi908.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi909.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi910.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Kakashi911.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\magicbar.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map2mainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map3mainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map4mainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map5mainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\mapmainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Molding12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\NarutoBackground.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="res\ntutcsie.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\poison1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\poison2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\poison3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\poison4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\poison5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\PushoverBottom.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\rank1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\rank2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\rank3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Red-Diamond.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan36.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan37.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan38.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan39.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan40.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan41.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Rendan42.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\rising.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\rslade.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Run.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Run.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Run12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Run16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SasukeSkill2UI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SasukeSkillUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\scoreboard.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\scoreboard2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Shikamaru.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\ShikamaruUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\shining20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Shurikan.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Shurikan2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Shurikan3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Skill8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Skill8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill9.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill18.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill19.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill20.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill21.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill22.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill23.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill24.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill25.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill26.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill27.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill28.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill29.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill30.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill31.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill32.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill33.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\Skill34.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill35.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill36.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill37.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill38.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill39.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill40.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill41.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill42.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill43.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill44.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill45.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill46.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill47.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill48.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill49.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill50.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill51.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill52.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill53.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill54.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill55.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill56.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill57.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill58.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill59.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill60.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill61.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill62.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill63.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Skill64.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\SkillBackground.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\SkillBackground2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\SkillBackground3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\SkillBackground4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\SkillBackground5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillFail6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillText1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillText2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillText3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillText4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\SkillUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\SkillUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\SkillUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\SkillUI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\slade.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Smoke.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Smoke2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Smoke3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Stand.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\Stand2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\Stand6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand7.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\stand8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\Stand8.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\start1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\start2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\start3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\starting_view.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\StoneButton.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Shikamaru\throw6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Orochimaru\UI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Sasuke\UI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Neji\UI.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\water1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\water2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\water3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\water4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\water5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Wind.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Wind0.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\Wind2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\fire.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor2.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor3.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor4.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor5.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedoor6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedown00.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedown01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedown02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedown03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firedown04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firejump00.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firejump01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firejump02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firejump03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firejump04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun0.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun05.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun06.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun07.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun08.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun09.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\firemanrun14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\GAME.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final05.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final06.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final07.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final08.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final09.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\final10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map6.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\map6mainmenu.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_1.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_05.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_06.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_07.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_08.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_09.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic_13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_01.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_02.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_03.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_04.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_05.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_06.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_07.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_08.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_09.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_10.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_11.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_12.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_13.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_14.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_15.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_16.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+    <Image Include="RES\vic2_17.bmp">
+      <Filter>Resource File</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="cpp.hint">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource File</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource File</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{addc5d44-f6f6-4ca1-8d6e-39a83162a276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{382cf548-733a-4d61-b7ec-e69c904471ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mygame">
+      <UniqueIdentifier>{2f889b75-df7f-443b-be27-21da307f05cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource File">
+      <UniqueIdentifier>{47675f53-a92a-4be4-b8f1-e7e75b9058a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\maps.txt">
+      <Filter>Resource File</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|Win32">
+      <Configuration>UnitTest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="Res\ball.bmp" />
+    <None Include="RES\bmp0.bmp" />
+    <None Include="RES\bmp1.bmp" />
+    <None Include="RES\bmp10.bmp" />
+    <None Include="RES\bmp2.bmp" />
+    <None Include="RES\bmp3.bmp" />
+    <None Include="RES\bmp4.bmp" />
+    <None Include="RES\bmp5.bmp" />
+    <None Include="RES\bmp6.bmp" />
+    <None Include="RES\bmp7.bmp" />
+    <None Include="RES\bmp8.bmp" />
+    <None Include="RES\bmp9.bmp" />
+    <None Include="RES\center.bmp" />
+    <None Include="RES\continue.bmp" />
+    <None Include="Res\corner.bmp" />
+    <None Include="RES\eraser1.bmp" />
+    <None Include="RES\eraser2.bmp" />
+    <None Include="RES\eraser3.bmp" />
+    <None Include="res\game.ico" />
+    <None Include="res\game.rc2" />
+    <None Include="RES\gamecurs.cur" />
+    <None Include="res\gameDoc.ico" />
+    <None Include="RES\help.bmp" />
+    <None Include="RES\loading.bmp" />
+    <None Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp" />
+    <ClCompile Include="Source\bloodcount.cpp" />
+    <ClCompile Include="Source\bullet.cpp" />
+    <ClCompile Include="Source\CgameMap.cpp" />
+    <ClCompile Include="Source\Chainelevator.cpp" />
+    <ClCompile Include="Source\door.cpp" />
+    <ClCompile Include="Source\elevator.cpp" />
+    <ClCompile Include="Source\EnemyAI.cpp" />
+    <ClCompile Include="Source\FallWall.cpp" />
+    <ClCompile Include="Source\fire.cpp" />
+    <ClCompile Include="Source\Fireballmovie.cpp" />
+    <ClCompile Include="Source\firedoor.cpp" />
+    <ClCompile Include="Source\fireman.cpp" />
+    <ClCompile Include="Source\game.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\Iceballmovie.cpp" />
+    <ClCompile Include="Source\icedoor.cpp" />
+    <ClCompile Include="Source\iceman.cpp" />
+    <ClCompile Include="Source\ingamemovie.cpp" />
+    <ClCompile Include="Source\Kakashi.cpp" />
+    <ClCompile Include="Source\lever.cpp" />
+    <ClCompile Include="Source\MainFrm.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\man.cpp" />
+    <ClCompile Include="Source\Neji.cpp" />
+    <ClCompile Include="Source\Orochimaru.cpp" />
+    <ClCompile Include="Source\poison.cpp" />
+    <ClCompile Include="Source\RedButton.cpp" />
+    <ClCompile Include="Source\Rising.cpp" />
+    <ClCompile Include="Source\Sasuke.cpp" />
+    <ClCompile Include="Source\SasukeFireball.cpp" />
+    <ClCompile Include="Source\Shikamaru.cpp" />
+    <ClCompile Include="Source\Shoot.cpp" />
+    <ClCompile Include="Source\Shurikan.cpp" />
+    <ClCompile Include="Source\SkillStart.cpp" />
+    <ClCompile Include="Source\StartMovie.cpp" />
+    <ClCompile Include="Source\StdAfx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\Stone.cpp" />
+    <ClCompile Include="Source\trap.cpp" />
+    <ClCompile Include="Source\water.cpp" />
+    <ClCompile Include="Source\Wind.cpp" />
+    <ClCompile Include="Source\yellowbutton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h" />
+    <ClInclude Include="Source\bloodcount.h" />
+    <ClInclude Include="Source\bullet.h" />
+    <ClInclude Include="Source\CgameMap.h" />
+    <ClInclude Include="Source\Chainelevator.h" />
+    <ClInclude Include="Source\door.h" />
+    <ClInclude Include="Source\elevator.h" />
+    <ClInclude Include="Source\EnemyAI.h" />
+    <ClInclude Include="Source\FallWall.h" />
+    <ClInclude Include="Source\fire.h" />
+    <ClInclude Include="Source\Fireballmovie.h" />
+    <ClInclude Include="Source\firedoor.h" />
+    <ClInclude Include="Source\fireman.h" />
+    <ClInclude Include="Source\game.h" />
+    <ClInclude Include="Source\gameDoc.h" />
+    <ClInclude Include="Source\gameView.h" />
+    <ClInclude Include="Source\Iceballmovie.h" />
+    <ClInclude Include="Source\icedoor.h" />
+    <ClInclude Include="Source\iceman.h" />
+    <ClInclude Include="Source\ingamemovie.h" />
+    <ClInclude Include="Source\Kakashi.h" />
+    <ClInclude Include="Source\lever.h" />
+    <ClInclude Include="Source\MainFrm.h" />
+    <ClInclude Include="Source\man.h" />
+    <ClInclude Include="Source\Neji.h" />
+    <ClInclude Include="Source\Orochimaru.h" />
+    <ClInclude Include="Source\poison.h" />
+    <ClInclude Include="Source\RedButton.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\Rising.h" />
+    <ClInclude Include="Source\Sasuke.h" />
+    <ClInclude Include="Source\SasukeFireball.h" />
+    <ClInclude Include="Source\Shikamaru.h" />
+    <ClInclude Include="Source\Shoot.h" />
+    <ClInclude Include="Source\Shurikan.h" />
+    <ClInclude Include="Source\SkillStart.h" />
+    <ClInclude Include="Source\StartMovie.h" />
+    <ClInclude Include="Source\StdAfx.h" />
+    <ClInclude Include="Source\gamelib.h" />
+    <ClInclude Include="Source\mygame.h" />
+    <ClInclude Include="Source\Stone.h" />
+    <ClInclude Include="Source\trap.h" />
+    <ClInclude Include="Source\water.h" />
+    <ClInclude Include="Source\Wind.h" />
+    <ClInclude Include="Source\yellowbutton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\0.bmp" />
+    <Image Include="RES\1.bmp" />
+    <Image Include="RES\2.bmp" />
+    <Image Include="RES\3.bmp" />
+    <Image Include="RES\4.bmp" />
+    <Image Include="RES\5.bmp" />
+    <Image Include="RES\6.bmp" />
+    <Image Include="RES\7.bmp" />
+    <Image Include="RES\8.bmp" />
+    <Image Include="RES\9.bmp" />
+    <Image Include="RES\a.bmp" />
+    <Image Include="RES\about.bmp" />
+    <Image Include="RES\arrow.bmp" />
+    <Image Include="RES\B.bmp" />
+    <Image Include="res\bitmap10.bmp" />
+    <Image Include="res\bitmap13.bmp" />
+    <Image Include="res\bitmap14.bmp" />
+    <Image Include="res\bitmap19.bmp" />
+    <Image Include="res\bitmap40.bmp" />
+    <Image Include="res\bitmap47.bmp" />
+    <Image Include="res\bitmap58.bmp" />
+    <Image Include="res\bitmap59.bmp" />
+    <Image Include="res\bitmap71.bmp" />
+    <Image Include="res\bitmap83.bmp" />
+    <Image Include="RES\blood_background.bmp" />
+    <Image Include="RES\blood_green.bmp" />
+    <Image Include="RES\blood_orange.bmp" />
+    <Image Include="RES\Blue-Diamond.bmp" />
+    <Image Include="RES\blueDai.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="RES\bullet_1.bmp" />
+    <Image Include="RES\bullet_10.bmp" />
+    <Image Include="RES\bullet_11.bmp" />
+    <Image Include="RES\bullet_12.bmp" />
+    <Image Include="RES\bullet_13.bmp" />
+    <Image Include="RES\bullet_14.bmp" />
+    <Image Include="RES\bullet_15.bmp" />
+    <Image Include="RES\bullet_16.bmp" />
+    <Image Include="RES\bullet_17.bmp" />
+    <Image Include="RES\bullet_18.bmp" />
+    <Image Include="RES\bullet_19.bmp" />
+    <Image Include="RES\bullet_2.bmp" />
+    <Image Include="RES\bullet_20.bmp" />
+    <Image Include="RES\bullet_21.bmp" />
+    <Image Include="RES\bullet_22.bmp" />
+    <Image Include="RES\bullet_23.bmp" />
+    <Image Include="RES\bullet_24.bmp" />
+    <Image Include="RES\bullet_25.bmp" />
+    <Image Include="RES\bullet_26.bmp" />
+    <Image Include="RES\bullet_27.bmp" />
+    <Image Include="RES\bullet_28.bmp" />
+    <Image Include="RES\bullet_29.bmp" />
+    <Image Include="RES\bullet_3.bmp" />
+    <Image Include="RES\bullet_30.bmp" />
+    <Image Include="RES\bullet_31.bmp" />
+    <Image Include="RES\bullet_32.bmp" />
+    <Image Include="RES\bullet_33.bmp" />
+    <Image Include="RES\bullet_34.bmp" />
+    <Image Include="RES\bullet_35.bmp" />
+    <Image Include="RES\bullet_36.bmp" />
+    <Image Include="RES\bullet_37.bmp" />
+    <Image Include="RES\bullet_38.bmp" />
+    <Image Include="RES\bullet_39.bmp" />
+    <Image Include="RES\bullet_4.bmp" />
+    <Image Include="RES\bullet_5.bmp" />
+    <Image Include="RES\bullet_6.bmp" />
+    <Image Include="RES\bullet_7.bmp" />
+    <Image Include="RES\bullet_8.bmp" />
+    <Image Include="RES\bullet_9.bmp" />
+    <Image Include="RES\c.bmp" />
+    <Image Include="RES\chakura.bmp" />
+    <Image Include="RES\CH_A.bmp" />
+    <Image Include="RES\CH_B.bmp" />
+    <Image Include="RES\CH_C.bmp" />
+    <Image Include="RES\d.bmp" />
+    <Image Include="RES\elevator.bmp" />
+    <Image Include="RES\final01.bmp" />
+    <Image Include="RES\final02.bmp" />
+    <Image Include="RES\final03.bmp" />
+    <Image Include="RES\final04.bmp" />
+    <Image Include="RES\final05.bmp" />
+    <Image Include="RES\final06.bmp" />
+    <Image Include="RES\final07.bmp" />
+    <Image Include="RES\final08.bmp" />
+    <Image Include="RES\final09.bmp" />
+    <Image Include="RES\final10.bmp" />
+    <Image Include="RES\fire.bmp" />
+    <Image Include="RES\fire1.bmp" />
+    <Image Include="RES\fire2.bmp" />
+    <Image Include="RES\fire3.bmp" />
+    <Image Include="RES\fire4.bmp" />
+    <Image Include="RES\fire5.bmp" />
+    <Image Include="RES\fireballmovie.bmp" />
+    <Image Include="RES\firedoor1.bmp" />
+    <Image Include="RES\firedoor2.bmp" />
+    <Image Include="RES\firedoor3.bmp" />
+    <Image Include="RES\firedoor4.bmp" />
+    <Image Include="RES\firedoor5.bmp" />
+    <Image Include="RES\firedoor6.bmp" />
+    <Image Include="RES\firedown00.bmp" />
+    <Image Include="RES\firedown01.bmp" />
+    <Image Include="RES\firedown02.bmp" />
+    <Image Include="RES\firedown03.bmp" />
+    <Image Include="RES\firedown04.bmp" />
+    <Image Include="RES\firejump00.bmp" />
+    <Image Include="RES\firejump01.bmp" />
+    <Image Include="RES\firejump02.bmp" />
+    <Image Include="RES\firejump03.bmp" />
+    <Image Include="RES\firejump04.bmp" />
+    <Image Include="RES\firemanrun0.bmp" />
+    <Image Include="RES\firemanrun01.bmp" />
+    <Image Include="RES\firemanrun02.bmp" />
+    <Image Include="RES\firemanrun03.bmp" />
+    <Image Include="RES\firemanrun04.bmp" />
+    <Image Include="RES\firemanrun05.bmp" />
+    <Image Include="RES\firemanrun06.bmp" />
+    <Image Include="RES\firemanrun07.bmp" />
+    <Image Include="RES\firemanrun08.bmp" />
+    <Image Include="RES\firemanrun09.bmp" />
+    <Image Include="RES\firemanrun10.bmp" />
+    <Image Include="RES\firemanrun11.bmp" />
+    <Image Include="RES\firemanrun12.bmp" />
+    <Image Include="RES\firemanrun13.bmp" />
+    <Image Include="RES\firemanrun14.bmp" />
+    <Image Include="RES\fire_attack_magic.bmp" />
+    <Image Include="RES\fire_attack_magic2.bmp" />
+    <Image Include="RES\fire_attack_magic3.bmp" />
+    <Image Include="RES\fire_attack_magic4.bmp" />
+    <Image Include="RES\fire_attack_run1.bmp" />
+    <Image Include="RES\fire_attack_run2.bmp" />
+    <Image Include="RES\fire_attack_run3.bmp" />
+    <Image Include="RES\fire_attack_run4.bmp" />
+    <Image Include="RES\fire_attack_run5.bmp" />
+    <Image Include="RES\fire_attack_run6.bmp" />
+    <Image Include="RES\fire_atttack.bmp" />
+    <Image Include="RES\fire_atttack2.bmp" />
+    <Image Include="RES\fire_atttacked1.bmp" />
+    <Image Include="RES\fire_atttacked10.bmp" />
+    <Image Include="RES\fire_atttacked11.bmp" />
+    <Image Include="RES\fire_atttacked12.bmp" />
+    <Image Include="RES\fire_atttacked2.bmp" />
+    <Image Include="RES\fire_atttacked3.bmp" />
+    <Image Include="RES\fire_atttacked4.bmp" />
+    <Image Include="RES\fire_atttacked5.bmp" />
+    <Image Include="RES\fire_atttacked6.bmp" />
+    <Image Include="RES\fire_atttacked7.bmp" />
+    <Image Include="RES\fire_atttacked8.bmp" />
+    <Image Include="RES\fire_atttacked9.bmp" />
+    <Image Include="RES\fire_atttacked_jump1.bmp" />
+    <Image Include="RES\fire_atttacked_jump2.bmp" />
+    <Image Include="RES\fire_defense1.bmp" />
+    <Image Include="RES\fire_defense2.bmp" />
+    <Image Include="RES\fire_hit.bmp" />
+    <Image Include="RES\fire_hit2.bmp" />
+    <Image Include="RES\fire_hit3.bmp" />
+    <Image Include="RES\fire_hit4.bmp" />
+    <Image Include="RES\GAME.bmp" />
+    <Image Include="RES\gamerover01.bmp" />
+    <Image Include="RES\gamerover02.bmp" />
+    <Image Include="RES\gamerover03.bmp" />
+    <Image Include="RES\ice.bmp" />
+    <Image Include="res\iceattac.bmp" />
+    <Image Include="RES\iceballmovie.bmp" />
+    <Image Include="RES\icedoor1.bmp" />
+    <Image Include="RES\icedoor2.bmp" />
+    <Image Include="RES\icedoor3.bmp" />
+    <Image Include="RES\icedoor4.bmp" />
+    <Image Include="RES\icedoor5.bmp" />
+    <Image Include="RES\icedoor6.bmp" />
+    <Image Include="RES\icedown00.bmp" />
+    <Image Include="RES\icedown01.bmp" />
+    <Image Include="RES\icedown02.bmp" />
+    <Image Include="RES\icedown03.bmp" />
+    <Image Include="RES\icejump.bmp" />
+    <Image Include="RES\icejump00.bmp" />
+    <Image Include="RES\icejump01.bmp" />
+    <Image Include="RES\icejump02.bmp" />
+    <Image Include="RES\icejump03.bmp" />
+    <Image Include="RES\iceman.bmp" />
+    <Image Include="RES\iceman2.bmp" />
+    <Image Include="RES\icemanrun00.bmp" />
+    <Image Include="RES\icemanrun01.bmp" />
+    <Image Include="RES\icemanrun02.bmp" />
+    <Image Include="RES\icemanrun03.bmp" />
+    <Image Include="RES\icemanrun04.bmp" />
+    <Image Include="RES\icemanrun05.bmp" />
+    <Image Include="RES\icemanrun06.bmp" />
+    <Image Include="RES\icemanrun07.bmp" />
+    <Image Include="RES\icemanrun08.bmp" />
+    <Image Include="RES\icemanrun09.bmp" />
+    <Image Include="RES\icemanrun10.bmp" />
+    <Image Include="RES\icemanrun11.bmp" />
+    <Image Include="RES\icemanrun12.bmp" />
+    <Image Include="RES\icemanrun13.bmp" />
+    <Image Include="RES\icemanrun14.bmp" />
+    <Image Include="RES\icemanrun15.bmp" />
+    <Image Include="RES\icerun2.bmp" />
+    <Image Include="RES\ice_attack_jump1.bmp" />
+    <Image Include="RES\ice_attack_jump2.bmp" />
+    <Image Include="RES\ice_attack_magic.bmp" />
+    <Image Include="RES\ice_attack_magic2.bmp" />
+    <Image Include="RES\ice_attack_magic3.bmp" />
+    <Image Include="RES\ice_attack_magic4.bmp" />
+    <Image Include="RES\ice_attack_run1.bmp" />
+    <Image Include="RES\ice_attack_run2.bmp" />
+    <Image Include="RES\ice_attack_run3.bmp" />
+    <Image Include="RES\ice_attack_run4.bmp" />
+    <Image Include="RES\ice_attack_run5.bmp" />
+    <Image Include="RES\ice_attack_run6.bmp" />
+    <Image Include="RES\ice_atttack.bmp" />
+    <Image Include="RES\ice_atttack2.bmp" />
+    <Image Include="RES\ice_atttacked1.bmp" />
+    <Image Include="res\ice_atttacked10.bmp" />
+    <Image Include="res\ice_atttacked11.bmp" />
+    <Image Include="res\ice_atttacked12.bmp" />
+    <Image Include="RES\ice_atttacked2.bmp" />
+    <Image Include="RES\ice_atttacked3.bmp" />
+    <Image Include="RES\ice_atttacked4.bmp" />
+    <Image Include="RES\ice_atttacked5.bmp" />
+    <Image Include="RES\ice_atttacked6.bmp" />
+    <Image Include="res\ice_atttacked7.bmp" />
+    <Image Include="res\ice_atttacked8.bmp" />
+    <Image Include="res\ice_atttacked9.bmp" />
+    <Image Include="RES\ice_defense1.bmp" />
+    <Image Include="RES\ice_defense2.bmp" />
+    <Image Include="RES\ice_hit.bmp" />
+    <Image Include="RES\ice_hit2.bmp" />
+    <Image Include="RES\ice_hit3.bmp" />
+    <Image Include="RES\ice_hit4.bmp" />
+    <Image Include="RES\image.bmp" />
+    <Image Include="RES\ingame.bmp" />
+    <Image Include="RES\ingame_menu.bmp" />
+    <Image Include="RES\ingame_retry.bmp" />
+    <Image Include="RES\INIT.bmp" />
+    <Image Include="RES\instructor01.bmp" />
+    <Image Include="RES\instructor02.bmp" />
+    <Image Include="RES\instructor03.bmp" />
+    <Image Include="RES\instructor04.bmp" />
+    <Image Include="RES\Kakashi001.bmp" />
+    <Image Include="RES\Kakashi002.bmp" />
+    <Image Include="RES\Kakashi003.bmp" />
+    <Image Include="RES\Kakashi004.bmp" />
+    <Image Include="RES\Kakashi005.bmp" />
+    <Image Include="RES\Kakashi006.bmp" />
+    <Image Include="RES\Kakashi007.bmp" />
+    <Image Include="RES\Kakashi008.bmp" />
+    <Image Include="RES\Kakashi009.bmp" />
+    <Image Include="RES\Kakashi010.bmp" />
+    <Image Include="RES\Kakashi011.bmp" />
+    <Image Include="RES\Kakashi012.bmp" />
+    <Image Include="RES\Kakashi013.bmp" />
+    <Image Include="RES\Kakashi014.bmp" />
+    <Image Include="RES\Kakashi015.bmp" />
+    <Image Include="RES\Kakashi016.bmp" />
+    <Image Include="RES\Kakashi017.bmp" />
+    <Image Include="RES\Kakashi018.bmp" />
+    <Image Include="RES\Kakashi101.bmp" />
+    <Image Include="RES\Kakashi102.bmp" />
+    <Image Include="RES\Kakashi103.bmp" />
+    <Image Include="RES\Kakashi104.bmp" />
+    <Image Include="RES\Kakashi105.bmp" />
+    <Image Include="RES\Kakashi106.bmp" />
+    <Image Include="RES\Kakashi107.bmp" />
+    <Image Include="RES\Kakashi108.bmp" />
+    <Image Include="RES\Kakashi109.bmp" />
+    <Image Include="RES\Kakashi110.bmp" />
+    <Image Include="RES\Kakashi111.bmp" />
+    <Image Include="RES\Kakashi201.bmp" />
+    <Image Include="RES\Kakashi202.bmp" />
+    <Image Include="RES\Kakashi203.bmp" />
+    <Image Include="RES\Kakashi204.bmp" />
+    <Image Include="RES\Kakashi205.bmp" />
+    <Image Include="RES\Kakashi206.bmp" />
+    <Image Include="RES\Kakashi207.bmp" />
+    <Image Include="RES\Kakashi208.bmp" />
+    <Image Include="RES\Kakashi209.bmp" />
+    <Image Include="RES\Kakashi210.bmp" />
+    <Image Include="RES\Kakashi211.bmp" />
+    <Image Include="RES\Kakashi212.bmp" />
+    <Image Include="RES\Kakashi213.bmp" />
+    <Image Include="RES\Kakashi214.bmp" />
+    <Image Include="RES\Kakashi301.bmp" />
+    <Image Include="RES\Kakashi302.bmp" />
+    <Image Include="RES\Kakashi303.bmp" />
+    <Image Include="RES\Kakashi304.bmp" />
+    <Image Include="RES\Kakashi305.bmp" />
+    <Image Include="RES\Kakashi306.bmp" />
+    <Image Include="RES\Kakashi307.bmp" />
+    <Image Include="RES\Kakashi308.bmp" />
+    <Image Include="RES\Kakashi309.bmp" />
+    <Image Include="RES\Kakashi310.bmp" />
+    <Image Include="RES\Kakashi311.bmp" />
+    <Image Include="RES\Kakashi312.bmp" />
+    <Image Include="RES\Kakashi313.bmp" />
+    <Image Include="RES\Kakashi314.bmp" />
+    <Image Include="RES\Kakashi315.bmp" />
+    <Image Include="RES\Kakashi316.bmp" />
+    <Image Include="RES\Kakashi317.bmp" />
+    <Image Include="RES\Kakashi401.bmp" />
+    <Image Include="RES\Kakashi402.bmp" />
+    <Image Include="RES\Kakashi403.bmp" />
+    <Image Include="RES\Kakashi404.bmp" />
+    <Image Include="RES\Kakashi405.bmp" />
+    <Image Include="RES\Kakashi406.bmp" />
+    <Image Include="RES\Kakashi407.bmp" />
+    <Image Include="RES\Kakashi408.bmp" />
+    <Image Include="RES\Kakashi409.bmp" />
+    <Image Include="RES\Kakashi410.bmp" />
+    <Image Include="RES\Kakashi411.bmp" />
+    <Image Include="RES\Kakashi412.bmp" />
+    <Image Include="RES\Kakashi413.bmp" />
+    <Image Include="RES\Kakashi414.bmp" />
+    <Image Include="RES\Kakashi415.bmp" />
+    <Image Include="RES\Kakashi501.bmp" />
+    <Image Include="RES\Kakashi502.bmp" />
+    <Image Include="RES\Kakashi503.bmp" />
+    <Image Include="RES\Kakashi504.bmp" />
+    <Image Include="RES\Kakashi505.bmp" />
+    <Image Include="RES\Kakashi506.bmp" />
+    <Image Include="RES\Kakashi507.bmp" />
+    <Image Include="RES\Kakashi508.bmp" />
+    <Image Include="RES\Kakashi509.bmp" />
+    <Image Include="RES\Kakashi510.bmp" />
+    <Image Include="RES\Kakashi601.bmp" />
+    <Image Include="RES\Kakashi602.bmp" />
+    <Image Include="RES\Kakashi603.bmp" />
+    <Image Include="RES\Kakashi604.bmp" />
+    <Image Include="RES\Kakashi605.bmp" />
+    <Image Include="RES\Kakashi606.bmp" />
+    <Image Include="RES\Kakashi607.bmp" />
+    <Image Include="RES\Kakashi608.bmp" />
+    <Image Include="RES\Kakashi609.bmp" />
+    <Image Include="RES\Kakashi610.bmp" />
+    <Image Include="RES\Kakashi611.bmp" />
+    <Image Include="RES\Kakashi612.bmp" />
+    <Image Include="RES\Kakashi613.bmp" />
+    <Image Include="RES\Kakashi614.bmp" />
+    <Image Include="RES\Kakashi615.bmp" />
+    <Image Include="RES\Kakashi616.bmp" />
+    <Image Include="RES\Kakashi617.bmp" />
+    <Image Include="RES\Kakashi701.bmp" />
+    <Image Include="RES\Kakashi702.bmp" />
+    <Image Include="RES\Kakashi703.bmp" />
+    <Image Include="RES\Kakashi704.bmp" />
+    <Image Include="RES\Kakashi705.bmp" />
+    <Image Include="RES\Kakashi706.bmp" />
+    <Image Include="RES\Kakashi707.bmp" />
+    <Image Include="RES\Kakashi708.bmp" />
+    <Image Include="RES\Kakashi709.bmp" />
+    <Image Include="RES\Kakashi710.bmp" />
+    <Image Include="RES\Kakashi711.bmp" />
+    <Image Include="RES\Kakashi712.bmp" />
+    <Image Include="RES\Kakashi713.bmp" />
+    <Image Include="RES\Kakashi801.bmp" />
+    <Image Include="RES\Kakashi802.bmp" />
+    <Image Include="RES\Kakashi803.bmp" />
+    <Image Include="RES\Kakashi804.bmp" />
+    <Image Include="RES\Kakashi805.bmp" />
+    <Image Include="RES\Kakashi806.bmp" />
+    <Image Include="RES\Kakashi807.bmp" />
+    <Image Include="RES\Kakashi808.bmp" />
+    <Image Include="RES\Kakashi809.bmp" />
+    <Image Include="RES\Kakashi901.bmp" />
+    <Image Include="RES\Kakashi902.bmp" />
+    <Image Include="RES\Kakashi903.bmp" />
+    <Image Include="RES\Kakashi904.bmp" />
+    <Image Include="RES\Kakashi905.bmp" />
+    <Image Include="RES\Kakashi906.bmp" />
+    <Image Include="RES\Kakashi907.bmp" />
+    <Image Include="RES\Kakashi908.bmp" />
+    <Image Include="RES\Kakashi909.bmp" />
+    <Image Include="RES\Kakashi910.bmp" />
+    <Image Include="RES\Kakashi911.bmp" />
+    <Image Include="RES\magicbar.bmp" />
+    <Image Include="RES\map.bmp" />
+    <Image Include="RES\map2.bmp" />
+    <Image Include="RES\map2mainmenu.bmp" />
+    <Image Include="RES\map3.bmp" />
+    <Image Include="RES\map3mainmenu.bmp" />
+    <Image Include="RES\map4.bmp" />
+    <Image Include="RES\map4mainmenu.bmp" />
+    <Image Include="RES\map5.bmp" />
+    <Image Include="RES\map5mainmenu.bmp" />
+    <Image Include="RES\map6.bmp" />
+    <Image Include="RES\map6mainmenu.bmp" />
+    <Image Include="RES\mapmainmenu.bmp" />
+    <Image Include="RES\NarutoBackground.bmp" />
+    <Image Include="RES\Neji\Combo1.bmp" />
+    <Image Include="RES\Neji\Combo10.bmp" />
+    <Image Include="RES\Neji\Combo11.bmp" />
+    <Image Include="RES\Neji\Combo12.bmp" />
+    <Image Include="RES\Neji\Combo13.bmp" />
+    <Image Include="RES\Neji\Combo14.bmp" />
+    <Image Include="RES\Neji\Combo15.bmp" />
+    <Image Include="RES\Neji\Combo16.bmp" />
+    <Image Include="RES\Neji\Combo17.bmp" />
+    <Image Include="RES\Neji\Combo18.bmp" />
+    <Image Include="RES\Neji\Combo19.bmp" />
+    <Image Include="RES\Neji\Combo2.bmp" />
+    <Image Include="RES\Neji\Combo21.bmp" />
+    <Image Include="RES\Neji\Combo22.bmp" />
+    <Image Include="RES\Neji\Combo23.bmp" />
+    <Image Include="RES\Neji\Combo24.bmp" />
+    <Image Include="RES\Neji\Combo25.bmp" />
+    <Image Include="RES\Neji\Combo26.bmp" />
+    <Image Include="RES\Neji\Combo27.bmp" />
+    <Image Include="RES\Neji\Combo28.bmp" />
+    <Image Include="RES\Neji\Combo29.bmp" />
+    <Image Include="RES\Neji\Combo3.bmp" />
+    <Image Include="RES\Neji\Combo30.bmp" />
+    <Image Include="RES\Neji\Combo31.bmp" />
+    <Image Include="RES\Neji\Combo32.bmp" />
+    <Image Include="RES\Neji\Combo33.bmp" />
+    <Image Include="RES\Neji\Combo34.bmp" />
+    <Image Include="RES\Neji\Combo35.bmp" />
+    <Image Include="RES\Neji\Combo4.bmp" />
+    <Image Include="RES\Neji\Combo5.bmp" />
+    <Image Include="RES\Neji\Combo6.bmp" />
+    <Image Include="RES\Neji\Combo7.bmp" />
+    <Image Include="RES\Neji\Combo8.bmp" />
+    <Image Include="RES\Neji\Combo9.bmp" />
+    <Image Include="RES\Neji\Die1.bmp" />
+    <Image Include="RES\Neji\Die2.bmp" />
+    <Image Include="RES\Neji\Die3.bmp" />
+    <Image Include="RES\Neji\Die4.bmp" />
+    <Image Include="RES\Neji\Die5.bmp" />
+    <Image Include="RES\Neji\Die6.bmp" />
+    <Image Include="RES\Neji\Die7.bmp" />
+    <Image Include="RES\Neji\Die8.bmp" />
+    <Image Include="RES\Neji\Hurt1.bmp" />
+    <Image Include="RES\Neji\Hurt2.bmp" />
+    <Image Include="RES\Neji\Hurt3.bmp" />
+    <Image Include="RES\Neji\Hurt4.bmp" />
+    <Image Include="RES\Neji\Run1.bmp" />
+    <Image Include="RES\Neji\Run10.bmp" />
+    <Image Include="RES\Neji\Run11.bmp" />
+    <Image Include="RES\Neji\Run12.bmp" />
+    <Image Include="RES\Neji\Run2.bmp" />
+    <Image Include="RES\Neji\Run3.bmp" />
+    <Image Include="RES\Neji\Run4.bmp" />
+    <Image Include="RES\Neji\Run5.bmp" />
+    <Image Include="RES\Neji\Run6.bmp" />
+    <Image Include="RES\Neji\Run7.bmp" />
+    <Image Include="RES\Neji\Run8.bmp" />
+    <Image Include="RES\Neji\Run9.bmp" />
+    <Image Include="RES\Neji\Skill1.bmp" />
+    <Image Include="RES\Neji\Skill10.bmp" />
+    <Image Include="RES\Neji\Skill11.bmp" />
+    <Image Include="RES\Neji\Skill12.bmp" />
+    <Image Include="RES\Neji\Skill13.bmp" />
+    <Image Include="RES\Neji\Skill14.bmp" />
+    <Image Include="RES\Neji\Skill15.bmp" />
+    <Image Include="RES\Neji\Skill16.bmp" />
+    <Image Include="RES\Neji\Skill17.bmp" />
+    <Image Include="RES\Neji\Skill18.bmp" />
+    <Image Include="RES\Neji\Skill19.bmp" />
+    <Image Include="RES\Neji\Skill2.bmp" />
+    <Image Include="RES\Neji\Skill20.bmp" />
+    <Image Include="RES\Neji\Skill21.bmp" />
+    <Image Include="RES\Neji\Skill22.bmp" />
+    <Image Include="RES\Neji\Skill23.bmp" />
+    <Image Include="RES\Neji\Skill24.bmp" />
+    <Image Include="RES\Neji\Skill25.bmp" />
+    <Image Include="RES\Neji\Skill26.bmp" />
+    <Image Include="RES\Neji\Skill27.bmp" />
+    <Image Include="RES\Neji\Skill28.bmp" />
+    <Image Include="RES\Neji\Skill29.bmp" />
+    <Image Include="RES\Neji\Skill3.bmp" />
+    <Image Include="RES\Neji\Skill30.bmp" />
+    <Image Include="RES\Neji\Skill31.bmp" />
+    <Image Include="RES\Neji\Skill32.bmp" />
+    <Image Include="RES\Neji\Skill33.bmp" />
+    <Image Include="RES\Neji\Skill34.bmp" />
+    <Image Include="RES\Neji\Skill35.bmp" />
+    <Image Include="RES\Neji\Skill36.bmp" />
+    <Image Include="RES\Neji\Skill37.bmp" />
+    <Image Include="RES\Neji\Skill38.bmp" />
+    <Image Include="RES\Neji\Skill39.bmp" />
+    <Image Include="RES\Neji\Skill4.bmp" />
+    <Image Include="RES\Neji\Skill40.bmp" />
+    <Image Include="RES\Neji\Skill41.bmp" />
+    <Image Include="RES\Neji\Skill42.bmp" />
+    <Image Include="RES\Neji\Skill43.bmp" />
+    <Image Include="RES\Neji\Skill44.bmp" />
+    <Image Include="RES\Neji\Skill45.bmp" />
+    <Image Include="RES\Neji\Skill46.bmp" />
+    <Image Include="RES\Neji\Skill47.bmp" />
+    <Image Include="RES\Neji\Skill48.bmp" />
+    <Image Include="RES\Neji\Skill49.bmp" />
+    <Image Include="RES\Neji\Skill5.bmp" />
+    <Image Include="RES\Neji\Skill50.bmp" />
+    <Image Include="RES\Neji\Skill51.bmp" />
+    <Image Include="RES\Neji\Skill52.bmp" />
+    <Image Include="RES\Neji\Skill53.bmp" />
+    <Image Include="RES\Neji\Skill54.bmp" />
+    <Image Include="RES\Neji\Skill55.bmp" />
+    <Image Include="RES\Neji\Skill56.bmp" />
+    <Image Include="RES\Neji\Skill57.bmp" />
+    <Image Include="RES\Neji\Skill58.bmp" />
+    <Image Include="RES\Neji\Skill59.bmp" />
+    <Image Include="RES\Neji\Skill6.bmp" />
+    <Image Include="RES\Neji\Skill60.bmp" />
+    <Image Include="RES\Neji\Skill61.bmp" />
+    <Image Include="RES\Neji\Skill62.bmp" />
+    <Image Include="RES\Neji\Skill63.bmp" />
+    <Image Include="RES\Neji\Skill64.bmp" />
+    <Image Include="RES\Neji\Skill7.bmp" />
+    <Image Include="RES\Neji\Skill8.bmp" />
+    <Image Include="RES\Neji\Skill9.bmp" />
+    <Image Include="RES\Neji\SkillUI.bmp" />
+    <Image Include="RES\Neji\Stand.bmp" />
+    <Image Include="RES\Neji\Stand2.bmp" />
+    <Image Include="RES\Neji\UI.bmp" />
+    <Image Include="res\ntutcsie.bmp" />
+    <Image Include="RES\Orochimaru\Attacked.bmp" />
+    <Image Include="RES\Orochimaru\Attacked2.bmp" />
+    <Image Include="RES\Orochimaru\Combo.bmp" />
+    <Image Include="RES\Orochimaru\Combo10.bmp" />
+    <Image Include="RES\Orochimaru\Combo11.bmp" />
+    <Image Include="RES\Orochimaru\Combo12.bmp" />
+    <Image Include="RES\Orochimaru\Combo13.bmp" />
+    <Image Include="RES\Orochimaru\Combo14.bmp" />
+    <Image Include="RES\Orochimaru\Combo15.bmp" />
+    <Image Include="RES\Orochimaru\Combo16.bmp" />
+    <Image Include="RES\Orochimaru\Combo17.bmp" />
+    <Image Include="RES\Orochimaru\Combo18.bmp" />
+    <Image Include="RES\Orochimaru\Combo19.bmp" />
+    <Image Include="RES\Orochimaru\Combo2.bmp" />
+    <Image Include="RES\Orochimaru\Combo20.bmp" />
+    <Image Include="RES\Orochimaru\Combo21.bmp" />
+    <Image Include="RES\Orochimaru\Combo22.bmp" />
+    <Image Include="RES\Orochimaru\Combo23.bmp" />
+    <Image Include="RES\Orochimaru\Combo24.bmp" />
+    <Image Include="RES\Orochimaru\Combo25.bmp" />
+    <Image Include="RES\Orochimaru\Combo26.bmp" />
+    <Image Include="RES\Orochimaru\Combo27.bmp" />
+    <Image Include="RES\Orochimaru\Combo28.bmp" />
+    <Image Include="RES\Orochimaru\Combo29.bmp" />
+    <Image Include="RES\Orochimaru\Combo3.bmp" />
+    <Image Include="RES\Orochimaru\Combo30.bmp" />
+    <Image Include="RES\Orochimaru\Combo31.bmp" />
+    <Image Include="RES\Orochimaru\Combo32.bmp" />
+    <Image Include="RES\Orochimaru\Combo33.bmp" />
+    <Image Include="RES\Orochimaru\Combo34.bmp" />
+    <Image Include="RES\Orochimaru\Combo35.bmp" />
+    <Image Include="RES\Orochimaru\Combo36.bmp" />
+    <Image Include="RES\Orochimaru\Combo4.bmp" />
+    <Image Include="RES\Orochimaru\Combo5.bmp" />
+    <Image Include="RES\Orochimaru\Combo6.bmp" />
+    <Image Include="RES\Orochimaru\Combo7.bmp" />
+    <Image Include="RES\Orochimaru\Combo8.bmp" />
+    <Image Include="RES\Orochimaru\Combo9.bmp" />
+    <Image Include="RES\Orochimaru\Die.bmp" />
+    <Image Include="RES\Orochimaru\Die2.bmp" />
+    <Image Include="RES\Orochimaru\Die3.bmp" />
+    <Image Include="RES\Orochimaru\Die4.bmp" />
+    <Image Include="RES\Orochimaru\Die5.bmp" />
+    <Image Include="RES\Orochimaru\Die6.bmp" />
+    <Image Include="RES\Orochimaru\Die7.bmp" />
+    <Image Include="RES\Orochimaru\Die8.bmp" />
+    <Image Include="RES\Orochimaru\Run1.bmp" />
+    <Image Include="RES\Orochimaru\Run10.bmp" />
+    <Image Include="RES\Orochimaru\Run11.bmp" />
+    <Image Include="RES\Orochimaru\Run12.bmp" />
+    <Image Include="RES\Orochimaru\Run13.bmp" />
+    <Image Include="RES\Orochimaru\Run14.bmp" />
+    <Image Include="RES\Orochimaru\Run15.bmp" />
+    <Image Include="RES\Orochimaru\Run16.bmp" />
+    <Image Include="RES\Orochimaru\Run2.bmp" />
+    <Image Include="RES\Orochimaru\Run3.bmp" />
+    <Image Include="RES\Orochimaru\Run4.bmp" />
+    <Image Include="RES\Orochimaru\Run5.bmp" />
+    <Image Include="RES\Orochimaru\Run6.bmp" />
+    <Image Include="RES\Orochimaru\Run7.bmp" />
+    <Image Include="RES\Orochimaru\Run8.bmp" />
+    <Image Include="RES\Orochimaru\Run9.bmp" />
+    <Image Include="RES\Orochimaru\Skill1.bmp" />
+    <Image Include="RES\Orochimaru\Skill2.bmp" />
+    <Image Include="RES\Orochimaru\Skill3.bmp" />
+    <Image Include="RES\Orochimaru\Skill4.bmp" />
+    <Image Include="RES\Orochimaru\Skill5.bmp" />
+    <Image Include="RES\Orochimaru\Skill6.bmp" />
+    <Image Include="RES\Orochimaru\Skill7.bmp" />
+    <Image Include="RES\Orochimaru\Skill8.bmp" />
+    <Image Include="RES\Orochimaru\SkillUI.bmp" />
+    <Image Include="RES\Orochimaru\Stand1.bmp" />
+    <Image Include="RES\Orochimaru\Stand2.bmp" />
+    <Image Include="RES\Orochimaru\Stand3.bmp" />
+    <Image Include="RES\Orochimaru\Stand4.bmp" />
+    <Image Include="RES\Orochimaru\Stand5.bmp" />
+    <Image Include="RES\Orochimaru\Stand6.bmp" />
+    <Image Include="RES\Orochimaru\UI.bmp" />
+    <Image Include="RES\poison1.bmp" />
+    <Image Include="RES\poison2.bmp" />
+    <Image Include="RES\poison3.bmp" />
+    <Image Include="RES\poison4.bmp" />
+    <Image Include="RES\poison5.bmp" />
+    <Image Include="RES\PushoverBottom.bmp" />
+    <Image Include="RES\rank1.bmp" />
+    <Image Include="RES\rank2.bmp" />
+    <Image Include="RES\rank3.bmp" />
+    <Image Include="RES\Red-Diamond.bmp" />
+    <Image Include="RES\rising.bmp" />
+    <Image Include="RES\rslade.bmp" />
+    <Image Include="RES\Sasuke\Combo.bmp" />
+    <Image Include="RES\Sasuke\Combo10.bmp" />
+    <Image Include="RES\Sasuke\Combo11.bmp" />
+    <Image Include="RES\Sasuke\Combo12.bmp" />
+    <Image Include="RES\Sasuke\Combo13.bmp" />
+    <Image Include="RES\Sasuke\Combo14.bmp" />
+    <Image Include="RES\Sasuke\Combo15.bmp" />
+    <Image Include="RES\Sasuke\Combo16.bmp" />
+    <Image Include="RES\Sasuke\Combo17.bmp" />
+    <Image Include="RES\Sasuke\Combo18.bmp" />
+    <Image Include="RES\Sasuke\Combo19.bmp" />
+    <Image Include="RES\Sasuke\Combo2.bmp" />
+    <Image Include="RES\Sasuke\Combo20.bmp" />
+    <Image Include="RES\Sasuke\Combo3.bmp" />
+    <Image Include="RES\Sasuke\Combo4.bmp" />
+    <Image Include="RES\Sasuke\Combo5.bmp" />
+    <Image Include="RES\Sasuke\Combo6.bmp" />
+    <Image Include="RES\Sasuke\Combo7.bmp" />
+    <Image Include="RES\Sasuke\Combo8.bmp" />
+    <Image Include="RES\Sasuke\Combo9.bmp" />
+    <Image Include="RES\Sasuke\Die.bmp" />
+    <Image Include="RES\Sasuke\Die10.bmp" />
+    <Image Include="RES\Sasuke\Die11.bmp" />
+    <Image Include="RES\Sasuke\Die12.bmp" />
+    <Image Include="RES\Sasuke\Die13.bmp" />
+    <Image Include="RES\Sasuke\Die14.bmp" />
+    <Image Include="RES\Sasuke\Die15.bmp" />
+    <Image Include="RES\Sasuke\Die16.bmp" />
+    <Image Include="RES\Sasuke\Die17.bmp" />
+    <Image Include="RES\Sasuke\Die18.bmp" />
+    <Image Include="RES\Sasuke\Die2.bmp" />
+    <Image Include="RES\Sasuke\Die3.bmp" />
+    <Image Include="RES\Sasuke\Die4.bmp" />
+    <Image Include="RES\Sasuke\Die5.bmp" />
+    <Image Include="RES\Sasuke\Die6.bmp" />
+    <Image Include="RES\Sasuke\Die7.bmp" />
+    <Image Include="RES\Sasuke\Die8.bmp" />
+    <Image Include="RES\Sasuke\Die9.bmp" />
+    <Image Include="RES\Sasuke\Down.bmp" />
+    <Image Include="RES\Sasuke\Down2.bmp" />
+    <Image Include="RES\Sasuke\Fireball.bmp" />
+    <Image Include="RES\Sasuke\Fireball10.bmp" />
+    <Image Include="RES\Sasuke\Fireball11.bmp" />
+    <Image Include="RES\Sasuke\Fireball12.bmp" />
+    <Image Include="RES\Sasuke\Fireball13.bmp" />
+    <Image Include="RES\Sasuke\Fireball14.bmp" />
+    <Image Include="RES\Sasuke\Fireball15.bmp" />
+    <Image Include="RES\Sasuke\Fireball16.bmp" />
+    <Image Include="RES\Sasuke\Fireball17.bmp" />
+    <Image Include="RES\Sasuke\Fireball18.bmp" />
+    <Image Include="RES\Sasuke\Fireball19.bmp" />
+    <Image Include="RES\Sasuke\Fireball2.bmp" />
+    <Image Include="RES\Sasuke\Fireball20.bmp" />
+    <Image Include="RES\Sasuke\Fireball21.bmp" />
+    <Image Include="RES\Sasuke\Fireball22.bmp" />
+    <Image Include="RES\Sasuke\Fireball23.bmp" />
+    <Image Include="RES\Sasuke\Fireball24.bmp" />
+    <Image Include="RES\Sasuke\Fireball25.bmp" />
+    <Image Include="RES\Sasuke\Fireball26.bmp" />
+    <Image Include="RES\Sasuke\Fireball27.bmp" />
+    <Image Include="RES\Sasuke\Fireball28.bmp" />
+    <Image Include="RES\Sasuke\Fireball29.bmp" />
+    <Image Include="RES\Sasuke\Fireball3.bmp" />
+    <Image Include="RES\Sasuke\Fireball30.bmp" />
+    <Image Include="RES\Sasuke\Fireball31.bmp" />
+    <Image Include="RES\Sasuke\Fireball32.bmp" />
+    <Image Include="RES\Sasuke\Fireball33.bmp" />
+    <Image Include="RES\Sasuke\Fireball34.bmp" />
+    <Image Include="RES\Sasuke\Fireball35.bmp" />
+    <Image Include="RES\Sasuke\Fireball36.bmp" />
+    <Image Include="RES\Sasuke\Fireball37.bmp" />
+    <Image Include="RES\Sasuke\Fireball38.bmp" />
+    <Image Include="RES\Sasuke\Fireball39.bmp" />
+    <Image Include="RES\Sasuke\Fireball4.bmp" />
+    <Image Include="RES\Sasuke\Fireball40.bmp" />
+    <Image Include="RES\Sasuke\Fireball5.bmp" />
+    <Image Include="RES\Sasuke\Fireball6.bmp" />
+    <Image Include="RES\Sasuke\Fireball7.bmp" />
+    <Image Include="RES\Sasuke\Fireball8.bmp" />
+    <Image Include="RES\Sasuke\Fireball9.bmp" />
+    <Image Include="RES\Sasuke\Hit.bmp" />
+    <Image Include="RES\Sasuke\Housenka.bmp" />
+    <Image Include="RES\Sasuke\Housenka10.bmp" />
+    <Image Include="RES\Sasuke\Housenka11.bmp" />
+    <Image Include="RES\Sasuke\Housenka12.bmp" />
+    <Image Include="RES\Sasuke\Housenka13.bmp" />
+    <Image Include="RES\Sasuke\Housenka14.bmp" />
+    <Image Include="RES\Sasuke\Housenka15.bmp" />
+    <Image Include="RES\Sasuke\Housenka16.bmp" />
+    <Image Include="RES\Sasuke\Housenka17.bmp" />
+    <Image Include="RES\Sasuke\Housenka18.bmp" />
+    <Image Include="RES\Sasuke\Housenka19.bmp" />
+    <Image Include="RES\Sasuke\Housenka2.bmp" />
+    <Image Include="RES\Sasuke\Housenka20.bmp" />
+    <Image Include="RES\Sasuke\Housenka21.bmp" />
+    <Image Include="RES\Sasuke\Housenka22.bmp" />
+    <Image Include="RES\Sasuke\Housenka23.bmp" />
+    <Image Include="RES\Sasuke\Housenka24.bmp" />
+    <Image Include="RES\Sasuke\Housenka25.bmp" />
+    <Image Include="RES\Sasuke\Housenka26.bmp" />
+    <Image Include="RES\Sasuke\Housenka27.bmp" />
+    <Image Include="RES\Sasuke\Housenka28.bmp" />
+    <Image Include="RES\Sasuke\Housenka29.bmp" />
+    <Image Include="RES\Sasuke\Housenka3.bmp" />
+    <Image Include="RES\Sasuke\Housenka30.bmp" />
+    <Image Include="RES\Sasuke\Housenka4.bmp" />
+    <Image Include="RES\Sasuke\Housenka5.bmp" />
+    <Image Include="RES\Sasuke\Housenka6.bmp" />
+    <Image Include="RES\Sasuke\Housenka7.bmp" />
+    <Image Include="RES\Sasuke\Housenka8.bmp" />
+    <Image Include="RES\Sasuke\Housenka9.bmp" />
+    <Image Include="RES\Sasuke\Hurt.bmp" />
+    <Image Include="RES\Sasuke\Hurt2.bmp" />
+    <Image Include="RES\Sasuke\Jump.bmp" />
+    <Image Include="RES\Sasuke\Jump2.bmp" />
+    <Image Include="RES\Sasuke\Jump3.bmp" />
+    <Image Include="RES\Sasuke\Jump4.bmp" />
+    <Image Include="RES\Sasuke\JumpKick.bmp" />
+    <Image Include="RES\Sasuke\JumpKick2.bmp" />
+    <Image Include="RES\Sasuke\JumpKick3.bmp" />
+    <Image Include="RES\Sasuke\JumpKick4.bmp" />
+    <Image Include="RES\Sasuke\JumpKick5.bmp" />
+    <Image Include="RES\Sasuke\JumpKick6.bmp" />
+    <Image Include="RES\Sasuke\Molding.bmp" />
+    <Image Include="RES\Sasuke\Molding10.bmp" />
+    <Image Include="RES\Sasuke\Molding11.bmp" />
+    <Image Include="RES\Sasuke\Molding12.bmp" />
+    <Image Include="RES\Sasuke\Molding2.bmp" />
+    <Image Include="RES\Sasuke\Molding3.bmp" />
+    <Image Include="RES\Sasuke\Molding4.bmp" />
+    <Image Include="RES\Sasuke\Molding5.bmp" />
+    <Image Include="RES\Sasuke\Molding6.bmp" />
+    <Image Include="RES\Sasuke\Molding7.bmp" />
+    <Image Include="RES\Sasuke\Molding8.bmp" />
+    <Image Include="RES\Sasuke\Molding9.bmp" />
+    <Image Include="RES\Sasuke\Rendan.bmp" />
+    <Image Include="RES\Sasuke\Rendan10.bmp" />
+    <Image Include="RES\Sasuke\Rendan11.bmp" />
+    <Image Include="RES\Sasuke\Rendan12.bmp" />
+    <Image Include="RES\Sasuke\Rendan13.bmp" />
+    <Image Include="RES\Sasuke\Rendan14.bmp" />
+    <Image Include="RES\Sasuke\Rendan15.bmp" />
+    <Image Include="RES\Sasuke\Rendan16.bmp" />
+    <Image Include="RES\Sasuke\Rendan17.bmp" />
+    <Image Include="RES\Sasuke\Rendan18.bmp" />
+    <Image Include="RES\Sasuke\Rendan19.bmp" />
+    <Image Include="RES\Sasuke\Rendan2.bmp" />
+    <Image Include="RES\Sasuke\Rendan20.bmp" />
+    <Image Include="RES\Sasuke\Rendan21.bmp" />
+    <Image Include="RES\Sasuke\Rendan22.bmp" />
+    <Image Include="RES\Sasuke\Rendan23.bmp" />
+    <Image Include="RES\Sasuke\Rendan24.bmp" />
+    <Image Include="RES\Sasuke\Rendan25.bmp" />
+    <Image Include="RES\Sasuke\Rendan26.bmp" />
+    <Image Include="RES\Sasuke\Rendan27.bmp" />
+    <Image Include="RES\Sasuke\Rendan28.bmp" />
+    <Image Include="RES\Sasuke\Rendan29.bmp" />
+    <Image Include="RES\Sasuke\Rendan3.bmp" />
+    <Image Include="RES\Sasuke\Rendan30.bmp" />
+    <Image Include="RES\Sasuke\Rendan31.bmp" />
+    <Image Include="RES\Sasuke\Rendan32.bmp" />
+    <Image Include="RES\Sasuke\Rendan33.bmp" />
+    <Image Include="RES\Sasuke\Rendan34.bmp" />
+    <Image Include="RES\Sasuke\Rendan35.bmp" />
+    <Image Include="RES\Sasuke\Rendan36.bmp" />
+    <Image Include="RES\Sasuke\Rendan37.bmp" />
+    <Image Include="RES\Sasuke\Rendan38.bmp" />
+    <Image Include="RES\Sasuke\Rendan39.bmp" />
+    <Image Include="RES\Sasuke\Rendan4.bmp" />
+    <Image Include="RES\Sasuke\Rendan40.bmp" />
+    <Image Include="RES\Sasuke\Rendan41.bmp" />
+    <Image Include="RES\Sasuke\Rendan42.bmp" />
+    <Image Include="RES\Sasuke\Rendan5.bmp" />
+    <Image Include="RES\Sasuke\Rendan6.bmp" />
+    <Image Include="RES\Sasuke\Rendan7.bmp" />
+    <Image Include="RES\Sasuke\Rendan8.bmp" />
+    <Image Include="RES\Sasuke\Rendan9.bmp" />
+    <Image Include="RES\Sasuke\Run.bmp" />
+    <Image Include="RES\Sasuke\Run2.bmp" />
+    <Image Include="RES\Sasuke\Run3.bmp" />
+    <Image Include="RES\Sasuke\Run4.bmp" />
+    <Image Include="RES\Sasuke\SasukeSkill2UI.bmp" />
+    <Image Include="RES\Sasuke\SasukeSkillUI.bmp" />
+    <Image Include="RES\Sasuke\Shurikan.bmp" />
+    <Image Include="RES\Sasuke\Shurikan2.bmp" />
+    <Image Include="RES\Sasuke\Shurikan3.bmp" />
+    <Image Include="RES\Sasuke\Skill1.bmp" />
+    <Image Include="RES\Sasuke\Skill2.bmp" />
+    <Image Include="RES\Sasuke\Skill3.bmp" />
+    <Image Include="RES\Sasuke\Skill4.bmp" />
+    <Image Include="RES\Sasuke\Skill5.bmp" />
+    <Image Include="RES\Sasuke\Skill6.bmp" />
+    <Image Include="RES\Sasuke\Skill7.bmp" />
+    <Image Include="RES\Sasuke\Skill8.bmp" />
+    <Image Include="RES\Sasuke\SkillFail.bmp" />
+    <Image Include="RES\Sasuke\SkillFail2.bmp" />
+    <Image Include="RES\Sasuke\SkillFail3.bmp" />
+    <Image Include="RES\Sasuke\SkillFail4.bmp" />
+    <Image Include="RES\Sasuke\SkillFail5.bmp" />
+    <Image Include="RES\Sasuke\SkillFail6.bmp" />
+    <Image Include="RES\Sasuke\SkillText1.bmp" />
+    <Image Include="RES\Sasuke\SkillText2.bmp" />
+    <Image Include="RES\Sasuke\SkillText3.bmp" />
+    <Image Include="RES\Sasuke\SkillText4.bmp" />
+    <Image Include="RES\Sasuke\SkillUI.bmp" />
+    <Image Include="RES\Sasuke\Stand.bmp" />
+    <Image Include="RES\Sasuke\Stand2.bmp" />
+    <Image Include="RES\Sasuke\Stand3.bmp" />
+    <Image Include="RES\Sasuke\Stand4.bmp" />
+    <Image Include="RES\Sasuke\Stand5.bmp" />
+    <Image Include="RES\Sasuke\Stand6.bmp" />
+    <Image Include="RES\Sasuke\Stand7.bmp" />
+    <Image Include="RES\Sasuke\Stand8.bmp" />
+    <Image Include="RES\Sasuke\UI.bmp" />
+    <Image Include="RES\scoreboard.bmp" />
+    <Image Include="RES\scoreboard2.bmp" />
+    <Image Include="RES\Shikamaru\Die.bmp" />
+    <Image Include="RES\Shikamaru\Die10.bmp" />
+    <Image Include="RES\Shikamaru\Die11.bmp" />
+    <Image Include="RES\Shikamaru\Die12.bmp" />
+    <Image Include="RES\Shikamaru\Die13.bmp" />
+    <Image Include="RES\Shikamaru\Die14.bmp" />
+    <Image Include="RES\Shikamaru\Die2.bmp" />
+    <Image Include="RES\Shikamaru\Die3.bmp" />
+    <Image Include="RES\Shikamaru\Die4.bmp" />
+    <Image Include="RES\Shikamaru\Die5.bmp" />
+    <Image Include="RES\Shikamaru\Die6.bmp" />
+    <Image Include="RES\Shikamaru\Die7.bmp" />
+    <Image Include="RES\Shikamaru\Die8.bmp" />
+    <Image Include="RES\Shikamaru\Die9.bmp" />
+    <Image Include="RES\Shikamaru\Jump.bmp" />
+    <Image Include="RES\Shikamaru\Jump2.bmp" />
+    <Image Include="RES\Shikamaru\Jump3.bmp" />
+    <Image Include="RES\Shikamaru\Jump4.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick1.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick2.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick3.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick4.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick5.bmp" />
+    <Image Include="RES\Shikamaru\jumpKick6.bmp" />
+    <Image Include="RES\Shikamaru\Run.bmp" />
+    <Image Include="RES\Shikamaru\Run2.bmp" />
+    <Image Include="RES\Shikamaru\Run3.bmp" />
+    <Image Include="RES\Shikamaru\Run4.bmp" />
+    <Image Include="RES\Shikamaru\Shikamaru.bmp" />
+    <Image Include="RES\Shikamaru\ShikamaruUI.bmp" />
+    <Image Include="RES\Shikamaru\Skill.bmp" />
+    <Image Include="RES\Shikamaru\Skill10.bmp" />
+    <Image Include="RES\Shikamaru\Skill11.bmp" />
+    <Image Include="RES\Shikamaru\Skill12.bmp" />
+    <Image Include="RES\Shikamaru\Skill13.bmp" />
+    <Image Include="RES\Shikamaru\Skill14.bmp" />
+    <Image Include="RES\Shikamaru\Skill15.bmp" />
+    <Image Include="RES\Shikamaru\Skill16.bmp" />
+    <Image Include="RES\Shikamaru\Skill17.bmp" />
+    <Image Include="RES\Shikamaru\Skill18.bmp" />
+    <Image Include="RES\Shikamaru\Skill19.bmp" />
+    <Image Include="RES\Shikamaru\Skill2.bmp" />
+    <Image Include="RES\Shikamaru\Skill20.bmp" />
+    <Image Include="RES\Shikamaru\Skill21.bmp" />
+    <Image Include="RES\Shikamaru\Skill22.bmp" />
+    <Image Include="RES\Shikamaru\Skill23.bmp" />
+    <Image Include="RES\Shikamaru\Skill24.bmp" />
+    <Image Include="RES\Shikamaru\Skill25.bmp" />
+    <Image Include="RES\Shikamaru\Skill26.bmp" />
+    <Image Include="RES\Shikamaru\Skill27.bmp" />
+    <Image Include="RES\Shikamaru\Skill28.bmp" />
+    <Image Include="RES\Shikamaru\Skill29.bmp" />
+    <Image Include="RES\Shikamaru\Skill3.bmp" />
+    <Image Include="RES\Shikamaru\Skill30.bmp" />
+    <Image Include="RES\Shikamaru\Skill31.bmp" />
+    <Image Include="RES\Shikamaru\Skill32.bmp" />
+    <Image Include="RES\Shikamaru\Skill33.bmp" />
+    <Image Include="RES\Shikamaru\Skill34.bmp" />
+    <Image Include="RES\Shikamaru\Skill4.bmp" />
+    <Image Include="RES\Shikamaru\Skill5.bmp" />
+    <Image Include="RES\Shikamaru\Skill6.bmp" />
+    <Image Include="RES\Shikamaru\Skill7.bmp" />
+    <Image Include="RES\Shikamaru\Skill8.bmp" />
+    <Image Include="RES\Shikamaru\Skill9.bmp" />
+    <Image Include="RES\Shikamaru\SkillUI.bmp" />
+    <Image Include="RES\Shikamaru\stand1.bmp" />
+    <Image Include="RES\Shikamaru\stand2.bmp" />
+    <Image Include="RES\Shikamaru\stand3.bmp" />
+    <Image Include="RES\Shikamaru\stand4.bmp" />
+    <Image Include="RES\Shikamaru\stand5.bmp" />
+    <Image Include="RES\Shikamaru\stand6.bmp" />
+    <Image Include="RES\Shikamaru\stand7.bmp" />
+    <Image Include="RES\Shikamaru\stand8.bmp" />
+    <Image Include="RES\Shikamaru\throw1.bmp" />
+    <Image Include="RES\Shikamaru\throw2.bmp" />
+    <Image Include="RES\Shikamaru\throw3.bmp" />
+    <Image Include="RES\Shikamaru\throw4.bmp" />
+    <Image Include="RES\Shikamaru\throw5.bmp" />
+    <Image Include="RES\Shikamaru\throw6.bmp" />
+    <Image Include="RES\shining1.bmp" />
+    <Image Include="RES\shining10.bmp" />
+    <Image Include="RES\shining11.bmp" />
+    <Image Include="RES\shining12.bmp" />
+    <Image Include="RES\shining13.bmp" />
+    <Image Include="RES\shining14.bmp" />
+    <Image Include="RES\shining15.bmp" />
+    <Image Include="RES\shining16.bmp" />
+    <Image Include="RES\shining17.bmp" />
+    <Image Include="RES\shining18.bmp" />
+    <Image Include="RES\shining19.bmp" />
+    <Image Include="RES\shining2.bmp" />
+    <Image Include="RES\shining20.bmp" />
+    <Image Include="RES\shining3.bmp" />
+    <Image Include="RES\shining4.bmp" />
+    <Image Include="RES\shining5.bmp" />
+    <Image Include="RES\shining6.bmp" />
+    <Image Include="RES\shining7.bmp" />
+    <Image Include="RES\shining8.bmp" />
+    <Image Include="RES\shining9.bmp" />
+    <Image Include="RES\SkillBackground.bmp" />
+    <Image Include="RES\SkillBackground2.bmp" />
+    <Image Include="RES\SkillBackground3.bmp" />
+    <Image Include="RES\SkillBackground4.bmp" />
+    <Image Include="RES\SkillBackground5.bmp" />
+    <Image Include="RES\slade.bmp" />
+    <Image Include="RES\Smoke.bmp" />
+    <Image Include="RES\Smoke2.bmp" />
+    <Image Include="RES\Smoke3.bmp" />
+    <Image Include="RES\start1.bmp" />
+    <Image Include="RES\start2.bmp" />
+    <Image Include="RES\start3.bmp" />
+    <Image Include="RES\starting_view.bmp" />
+    <Image Include="RES\StoneButton.bmp" />
+    <Image Include="RES\vic2_01.bmp" />
+    <Image Include="RES\vic2_02.bmp" />
+    <Image Include="RES\vic2_03.bmp" />
+    <Image Include="RES\vic2_04.bmp" />
+    <Image Include="RES\vic2_05.bmp" />
+    <Image Include="RES\vic2_06.bmp" />
+    <Image Include="RES\vic2_07.bmp" />
+    <Image Include="RES\vic2_08.bmp" />
+    <Image Include="RES\vic2_09.bmp" />
+    <Image Include="RES\vic2_10.bmp" />
+    <Image Include="RES\vic2_11.bmp" />
+    <Image Include="RES\vic2_12.bmp" />
+    <Image Include="RES\vic2_13.bmp" />
+    <Image Include="RES\vic2_14.bmp" />
+    <Image Include="RES\vic2_15.bmp" />
+    <Image Include="RES\vic2_16.bmp" />
+    <Image Include="RES\vic2_17.bmp" />
+    <Image Include="RES\vic_01.bmp" />
+    <Image Include="RES\vic_02.bmp" />
+    <Image Include="RES\vic_03.bmp" />
+    <Image Include="RES\vic_04.bmp" />
+    <Image Include="RES\vic_05.bmp" />
+    <Image Include="RES\vic_06.bmp" />
+    <Image Include="RES\vic_07.bmp" />
+    <Image Include="RES\vic_08.bmp" />
+    <Image Include="RES\vic_09.bmp" />
+    <Image Include="RES\vic_1.bmp" />
+    <Image Include="RES\vic_10.bmp" />
+    <Image Include="RES\vic_11.bmp" />
+    <Image Include="RES\vic_12.bmp" />
+    <Image Include="RES\vic_13.bmp" />
+    <Image Include="RES\water1.bmp" />
+    <Image Include="RES\water2.bmp" />
+    <Image Include="RES\water3.bmp" />
+    <Image Include="RES\water4.bmp" />
+    <Image Include="RES\water5.bmp" />
+    <Image Include="RES\Wind.bmp" />
+    <Image Include="RES\Wind0.bmp" />
+    <Image Include="RES\Wind2.bmp" />
+    <Image Include="RES\winnerbackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\maps.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Source\game.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

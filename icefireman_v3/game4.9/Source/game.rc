@@ -1,0 +1,2376 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (繁體，台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\game.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BALL                BITMAP                  "..\\res\\ball.bmp"
+
+IDB_ERASER1             BITMAP                  "..\\res\\eraser1.bmp"
+
+IDB_BACKGROUND          BITMAP                  "..\\res\\ntutcsie.bmp"
+
+IDB_CORNER              BITMAP                  "..\\res\\corner.bmp"
+
+IDB_0                   BITMAP                  "..\\res\\bmp0.bmp"
+
+IDB_1                   BITMAP                  "..\\res\\bmp1.bmp"
+
+IDB_2                   BITMAP                  "..\\res\\bmp2.bmp"
+
+IDB_3                   BITMAP                  "..\\res\\bmp3.bmp"
+
+IDB_4                   BITMAP                  "..\\res\\bmp4.bmp"
+
+IDB_5                   BITMAP                  "..\\res\\bmp5.bmp"
+
+IDB_6                   BITMAP                  "..\\res\\bmp6.bmp"
+
+IDB_7                   BITMAP                  "..\\res\\bmp7.bmp"
+
+IDB_8                   BITMAP                  "..\\res\\bmp8.bmp"
+
+IDB_9                   BITMAP                  "..\\res\\bmp9.bmp"
+
+IDB_MINUS               BITMAP                  "..\\res\\bmp10.bmp"
+
+IDB_CENTER              BITMAP                  "..\\res\\center.bmp"
+
+IDB_ERASER2             BITMAP                  "..\\res\\eraser2.bmp"
+
+IDB_ERASER3             BITMAP                  "..\\res\\eraser3.bmp"
+
+IDB_CONTINUE            BITMAP                  "..\\res\\continue.bmp"
+
+IDB_HELP                BITMAP                  "..\\res\\help.bmp"
+
+IDB_LOADING             BITMAP                  "..\\res\\loading.bmp"
+
+pic_background          BITMAP                  "..\\RES\\image.bmp"
+
+pic_iceman              BITMAP                  "..\\RES\\ice.bmp"
+
+IDB_icerun              BITMAP                  "..\\RES\\iceman2.bmp"
+
+IDB_icerun2             BITMAP                  "..\\RES\\icerun2.bmp"
+
+IDB_icejump             BITMAP                  "..\\RES\\icejump.bmp"
+
+ICERUN01                BITMAP                  "..\\RES\\icemanrun01.bmp"
+
+ICERUN02                BITMAP                  "..\\RES\\icemanrun02.bmp"
+
+ICERUN03                BITMAP                  "..\\RES\\icemanrun03.bmp"
+
+ICERUN04                BITMAP                  "..\\RES\\icemanrun04.bmp"
+
+ICERUN05                BITMAP                  "..\\RES\\icemanrun05.bmp"
+
+ICERUN06                BITMAP                  "..\\RES\\icemanrun06.bmp"
+
+ICERUN07                BITMAP                  "..\\RES\\icemanrun07.bmp"
+
+ICERUN08                BITMAP                  "..\\RES\\icemanrun08.bmp"
+
+ICERUN09                BITMAP                  "..\\RES\\icemanrun09.bmp"
+
+ICERUN10                BITMAP                  "..\\RES\\icemanrun10.bmp"
+
+ICERUN11                BITMAP                  "..\\RES\\icemanrun11.bmp"
+
+ICERUN12                BITMAP                  "..\\RES\\icemanrun12.bmp"
+
+ICERUN13                BITMAP                  "..\\RES\\icemanrun13.bmp"
+
+ICERUN14                BITMAP                  "..\\RES\\icemanrun14.bmp"
+
+ICERUN15                BITMAP                  "..\\RES\\icemanrun15.bmp"
+
+ICEDOWN00               BITMAP                  "..\\RES\\icedown00.bmp"
+
+ICEDOWN01               BITMAP                  "..\\RES\\icedown01.bmp"
+
+ICEDOWN02               BITMAP                  "..\\RES\\icedown02.bmp"
+
+ICEDOWN03               BITMAP                  "..\\RES\\icedown03.bmp"
+
+ICEJUMP00               BITMAP                  "..\\RES\\icejump00.bmp"
+
+ICEJUMP01               BITMAP                  "..\\RES\\icejump01.bmp"
+
+ICEJUMP02               BITMAP                  "..\\RES\\icejump02.bmp"
+
+ICEJUMP03               BITMAP                  "..\\RES\\icejump03.bmp"
+
+ICEMAN                  BITMAP                  "..\\RES\\iceman.bmp"
+
+INIT                    BITMAP                  "..\\RES\\INIT.bmp"
+
+ARROR                   BITMAP                  "..\\RES\\arrow.bmp"
+
+pic_d                   BITMAP                  "..\\RES\\d.bmp"
+
+pic_slade               BITMAP                  "..\\RES\\slade.bmp"
+
+FIRE                    BITMAP                  "..\\RES\\fire.bmp"
+
+FIREDOWN00              BITMAP                  "..\\RES\\firedown00.bmp"
+
+FIREDOWN01              BITMAP                  "..\\RES\\firedown01.bmp"
+
+FIREDOWN02              BITMAP                  "..\\RES\\firedown02.bmp"
+
+FIREDOWN03              BITMAP                  "..\\RES\\firedown03.bmp"
+
+FIREDOWN04              BITMAP                  "..\\RES\\firedown04.bmp"
+
+FIREJUMP00              BITMAP                  "..\\RES\\firejump00.bmp"
+
+FIREJUMP01              BITMAP                  "..\\RES\\firejump01.bmp"
+
+FIREJUMP02              BITMAP                  "..\\RES\\firejump02.bmp"
+
+FIREJUMP03              BITMAP                  "..\\RES\\firejump03.bmp"
+
+FIREJUMP04              BITMAP                  "..\\RES\\firejump04.bmp"
+
+FIREMANRUN00            BITMAP                  "..\\RES\\firemanrun0.bmp"
+
+FIREMANRUN01            BITMAP                  "..\\RES\\firemanrun01.bmp"
+
+FIREMANRUN02            BITMAP                  "..\\RES\\firemanrun02.bmp"
+
+FIREMANRUN03            BITMAP                  "..\\RES\\firemanrun03.bmp"
+
+FIREMANRUN04            BITMAP                  "..\\RES\\firemanrun04.bmp"
+
+FIREMANRUN05            BITMAP                  "..\\RES\\firemanrun05.bmp"
+
+FIREMANRUN06            BITMAP                  "..\\RES\\firemanrun06.bmp"
+
+FIREMANRUN07            BITMAP                  "..\\RES\\firemanrun07.bmp"
+
+FIREMANRUN08            BITMAP                  "..\\RES\\firemanrun08.bmp"
+
+FIREMANRUN09            BITMAP                  "..\\RES\\firemanrun09.bmp"
+
+FIREMANRUN10            BITMAP                  "..\\RES\\firemanrun10.bmp"
+
+FIREMANRUN11            BITMAP                  "..\\RES\\firemanrun11.bmp"
+
+FIREMANRUN12            BITMAP                  "..\\RES\\firemanrun12.bmp"
+
+FIREMANRUN13            BITMAP                  "..\\RES\\firemanrun13.bmp"
+
+FIREMANRUN14            BITMAP                  "..\\RES\\firemanrun14.bmp"
+
+ground                  BITMAP                  "..\\RES\\B.bmp"
+
+elevator                BITMAP                  "..\\RES\\elevator.bmp"
+
+blueDai                 BITMAP                  "..\\RES\\blueDai.bmp"
+
+lava                    BITMAP                  "..\\res\\bitmap58.bmp"
+
+Water                   BITMAP                  "..\\res\\bitmap59.bmp"
+
+Poison                  BITMAP                  "..\\res\\bmp00001.bmp"
+
+bluegem                 BITMAP                  "..\\RES\\Blue-Diamond.bmp"
+
+redgem                  BITMAP                  "..\\RES\\Red-Diamond.bmp"
+
+Button                  BITMAP                  "..\\RES\\PushoverBottom.bmp"
+
+FIREDOOR1               BITMAP                  "..\\RES\\firedoor1.bmp"
+
+FIREDOOR2               BITMAP                  "..\\RES\\firedoor2.bmp"
+
+FIREDOOR3               BITMAP                  "..\\RES\\firedoor3.bmp"
+
+FIREDOOR4               BITMAP                  "..\\RES\\firedoor4.bmp"
+
+FIREDOOR5               BITMAP                  "..\\RES\\firedoor5.bmp"
+
+FIREDOOR6               BITMAP                  "..\\RES\\firedoor6.bmp"
+
+ICEDOOR1                BITMAP                  "..\\RES\\icedoor1.bmp"
+
+ICEDOOR2                BITMAP                  "..\\RES\\icedoor2.bmp"
+
+ICEDOOR3                BITMAP                  "..\\RES\\icedoor3.bmp"
+
+ICEDOOR4                BITMAP                  "..\\RES\\icedoor4.bmp"
+
+ICEDOOR5                BITMAP                  "..\\RES\\icedoor5.bmp"
+
+ICEDOOR6                BITMAP                  "..\\RES\\icedoor6.bmp"
+
+Stone                   BITMAP                  "..\\RES\\StoneButton.bmp"
+
+WATER1                  BITMAP                  "..\\RES\\water1.bmp"
+
+WATER2                  BITMAP                  "..\\RES\\water2.bmp"
+
+WATER3                  BITMAP                  "..\\RES\\water3.bmp"
+
+WATER4                  BITMAP                  "..\\RES\\water4.bmp"
+
+WATER5                  BITMAP                  "..\\RES\\water5.bmp"
+
+FIRE1                   BITMAP                  "..\\RES\\fire1.bmp"
+
+FIRE2                   BITMAP                  "..\\RES\\fire2.bmp"
+
+FIRE3                   BITMAP                  "..\\RES\\fire3.bmp"
+
+FIRE4                   BITMAP                  "..\\RES\\fire4.bmp"
+
+FIRE5                   BITMAP                  "..\\RES\\fire5.bmp"
+
+POISON1                 BITMAP                  "..\\RES\\poison1.bmp"
+
+POISON2                 BITMAP                  "..\\RES\\poison2.bmp"
+
+POISON3                 BITMAP                  "..\\RES\\poison3.bmp"
+
+POISON4                 BITMAP                  "..\\RES\\poison4.bmp"
+
+POISON5                 BITMAP                  "..\\RES\\poison5.bmp"
+
+rslade                  BITMAP                  "..\\RES\\rslade.bmp"
+
+GameOver01              BITMAP                  "..\\RES\\gamerover01.bmp"
+
+GameOver02              BITMAP                  "..\\RES\\gamerover02.bmp"
+
+GameOver03              BITMAP                  "..\\RES\\gamerover03.bmp"
+
+shining11               BITMAP                  "..\\RES\\shining1.bmp"
+
+shining12               BITMAP                  "..\\RES\\shining2.bmp"
+
+shining13               BITMAP                  "..\\RES\\shining3.bmp"
+
+shining14               BITMAP                  "..\\RES\\shining4.bmp"
+
+shining15               BITMAP                  "..\\RES\\shining5.bmp"
+
+shining16               BITMAP                  "..\\RES\\shining6.bmp"
+
+shining17               BITMAP                  "..\\RES\\shining7.bmp"
+
+shining18               BITMAP                  "..\\RES\\shining8.bmp"
+
+shining19               BITMAP                  "..\\RES\\shining9.bmp"
+
+shining20               BITMAP                  "..\\RES\\shining10.bmp"
+
+shining02               BITMAP                  "..\\RES\\shining11.bmp"
+
+shining01               BITMAP                  "..\\RES\\shining12.bmp"
+
+shining03               BITMAP                  "..\\RES\\shining13.bmp"
+
+shining04               BITMAP                  "..\\RES\\shining14.bmp"
+
+shining05               BITMAP                  "..\\RES\\shining15.bmp"
+
+shining06               BITMAP                  "..\\RES\\shining16.bmp"
+
+shining07               BITMAP                  "..\\RES\\shining17.bmp"
+
+shining08               BITMAP                  "..\\RES\\shining18.bmp"
+
+shining09               BITMAP                  "..\\RES\\shining19.bmp"
+
+shining10               BITMAP                  "..\\RES\\shining20.bmp"
+
+route1                  BITMAP                  "..\\RES\\map.bmp"
+
+route2                  BITMAP                  "..\\RES\\map2.bmp"
+
+route2tomain            BITMAP                  "..\\RES\\map2mainmenu.bmp"
+
+routetomain             BITMAP                  "..\\RES\\mapmainmenu.bmp"
+
+pic_rising              BITMAP                  "..\\RES\\rising.bmp"
+
+SMOKE                   BITMAP                  "..\\RES\\Smoke.bmp"
+
+SMOKE2                  BITMAP                  "..\\RES\\Smoke2.bmp"
+
+SMOKE3                  BITMAP                  "..\\RES\\Smoke3.bmp"
+
+rank1                   BITMAP                  "..\\RES\\rank1.bmp"
+
+rank2                   BITMAP                  "..\\RES\\rank2.bmp"
+
+rank3                   BITMAP                  "..\\RES\\rank3.bmp"
+
+map3                    BITMAP                  "..\\RES\\map3.bmp"
+
+map3mainmenu            BITMAP                  "..\\RES\\map3mainmenu.bmp"
+
+map4                    BITMAP                  "..\\RES\\map4.bmp"
+
+map4mainmenu            BITMAP                  "..\\RES\\map4mainmenu.bmp"
+
+score                   BITMAP                  "..\\RES\\scoreboard.bmp"
+
+score2                  BITMAP                  "..\\RES\\scoreboard2.bmp"
+
+number0                 BITMAP                  "..\\RES\\0.bmp"
+
+number1                 BITMAP                  "..\\RES\\1.bmp"
+
+number2                 BITMAP                  "..\\RES\\2.bmp"
+
+number3                 BITMAP                  "..\\RES\\3.bmp"
+
+number4                 BITMAP                  "..\\RES\\4.bmp"
+
+number5                 BITMAP                  "..\\RES\\5.bmp"
+
+number6                 BITMAP                  "..\\RES\\6.bmp"
+
+number7                 BITMAP                  "..\\RES\\7.bmp"
+
+number8                 BITMAP                  "..\\RES\\8.bmp"
+
+number9                 BITMAP                  "..\\RES\\9.bmp"
+
+CH_A                    BITMAP                  "..\\RES\\CH_A.bmp"
+
+CH_B                    BITMAP                  "..\\RES\\CH_B.bmp"
+
+CH_C                    BITMAP                  "..\\RES\\CH_C.bmp"
+
+IceAttack               BITMAP                  "..\\RES\\ice_atttack.bmp"
+
+ICEATTACKED1            BITMAP                  "..\\RES\\ice_atttacked1.bmp"
+
+ICEATTACKED2            BITMAP                  "..\\RES\\ice_atttacked2.bmp"
+
+ICEATTACKED3            BITMAP                  "..\\RES\\ice_atttacked3.bmp"
+
+ICEATTACKED4            BITMAP                  "..\\RES\\ice_atttacked4.bmp"
+
+ICEATTACKED6            BITMAP                  "..\\res\\ice_atttacked6.bmp"
+
+ICEATTACKED5            BITMAP                  "..\\RES\\ice_atttacked5.bmp"
+
+ICEATTACKRUN1           BITMAP                  "..\\RES\\ice_attack_run1.bmp"
+
+ICEATTACKRUN2           BITMAP                  "..\\RES\\ice_attack_run2.bmp"
+
+ICEATTACKRUN3           BITMAP                  "..\\RES\\ice_attack_run3.bmp"
+
+ICEATTACKRUN4           BITMAP                  "..\\RES\\ice_attack_run4.bmp"
+
+ICEATTACKRUN5           BITMAP                  "..\\RES\\ice_attack_run5.bmp"
+
+ICEATTACKRUN6           BITMAP                  "..\\RES\\ice_attack_run6.bmp"
+
+ICEATTACKED7            BITMAP                  "..\\res\\ice_atttacked7.bmp"
+
+ICEATTACKED8            BITMAP                  "..\\res\\ice_atttacked8.bmp"
+
+ICEATTACKED9            BITMAP                  "..\\res\\ice_atttacked9.bmp"
+
+ICEATTACKED10           BITMAP                  "..\\res\\ice_atttacked10.bmp"
+
+ICEATTACKED11           BITMAP                  "..\\res\\ice_atttacked11.bmp"
+
+ICEATTACKED12           BITMAP                  "..\\res\\ice_atttacked12.bmp"
+
+ICEATTACKJUMP1          BITMAP                  "..\\RES\\ice_attack_jump1.bmp"
+
+ICEATTACKJUMP2          BITMAP                  "..\\RES\\ice_attack_jump2.bmp"
+
+ICEATTACK2              BITMAP                  "..\\RES\\ice_atttack2.bmp"
+
+FIREATTACKRUN1          BITMAP                  "..\\RES\\fire_attack_run1.bmp"
+
+FIREATTACKRUN2          BITMAP                  "..\\RES\\fire_attack_run2.bmp"
+
+FIREATTACKRUN3          BITMAP                  "..\\RES\\fire_attack_run3.bmp"
+
+FIREATTACKRUN4          BITMAP                  "..\\RES\\fire_attack_run4.bmp"
+
+FIREATTACKRUN5          BITMAP                  "..\\RES\\fire_attack_run5.bmp"
+
+FIREATTACKRUN6          BITMAP                  "..\\RES\\fire_attack_run6.bmp"
+
+FIRE_ATTTACK            BITMAP                  "..\\RES\\fire_atttack.bmp"
+
+FIRE_ATTTACK2           BITMAP                  "..\\RES\\fire_atttack2.bmp"
+
+FIREATTTACKEDJUMP1      BITMAP                  "..\\RES\\fire_atttacked_jump1.bmp"
+
+FIREATTTACKEDJUMP2      BITMAP                  "..\\RES\\fire_atttacked_jump2.bmp"
+
+FIRE_ATTTACKED1         BITMAP                  "..\\RES\\fire_atttacked1.bmp"
+
+FIRE_ATTTACKED2         BITMAP                  "..\\RES\\fire_atttacked2.bmp"
+
+FIRE_ATTTACKED3         BITMAP                  "..\\RES\\fire_atttacked3.bmp"
+
+FIRE_ATTTACKED4         BITMAP                  "..\\RES\\fire_atttacked4.bmp"
+
+FIRE_ATTTACKED5         BITMAP                  "..\\RES\\fire_atttacked5.bmp"
+
+FIRE_ATTTACKED6         BITMAP                  "..\\RES\\fire_atttacked6.bmp"
+
+FIRE_ATTTACKED7         BITMAP                  "..\\RES\\fire_atttacked7.bmp"
+
+FIRE_ATTTACKED8         BITMAP                  "..\\RES\\fire_atttacked8.bmp"
+
+FIRE_ATTTACKED9         BITMAP                  "..\\RES\\fire_atttacked9.bmp"
+
+FIRE_ATTTACKED10        BITMAP                  "..\\RES\\fire_atttacked10.bmp"
+
+FIRE_ATTTACKED11        BITMAP                  "..\\RES\\fire_atttacked11.bmp"
+
+FIRE_ATTTACKED12        BITMAP                  "..\\RES\\fire_atttacked12.bmp"
+
+FIRE_HIT1               BITMAP                  "..\\RES\\fire_hit.bmp"
+
+FIRE_HIT2               BITMAP                  "..\\RES\\fire_hit2.bmp"
+
+FIRE_HIT3               BITMAP                  "..\\RES\\fire_hit3.bmp"
+
+FIRE_HIT4               BITMAP                  "..\\RES\\fire_hit4.bmp"
+
+ICE_HIT1                BITMAP                  "..\\RES\\ice_hit.bmp"
+
+ICE_HIT2                BITMAP                  "..\\RES\\ice_hit2.bmp"
+
+ICE_HIT3                BITMAP                  "..\\RES\\ice_hit3.bmp"
+
+ICE_HIT4                BITMAP                  "..\\RES\\ice_hit4.bmp"
+
+FIRE_DEFENSE1           BITMAP                  "..\\RES\\fire_defense1.bmp"
+
+FIRE_DEFENSE2           BITMAP                  "..\\RES\\fire_defense2.bmp"
+
+ICE_DEFENSE1            BITMAP                  "..\\RES\\ice_defense1.bmp"
+
+ICE_DEFENSE2            BITMAP                  "..\\RES\\ice_defense2.bmp"
+
+START1                  BITMAP                  "..\\RES\\start1.bmp"
+
+START2                  BITMAP                  "..\\RES\\start2.bmp"
+
+START3                  BITMAP                  "..\\RES\\start3.bmp"
+
+LEVER                   BITMAP                  "..\\RES\\a.bmp"
+
+LEVER2                  BITMAP                  "..\\RES\\c.bmp"
+
+FIREATTACKMAGIC         BITMAP                  "..\\RES\\fire_attack_magic.bmp"
+
+ICEATTACKMAGIC          BITMAP                  "..\\RES\\ice_attack_magic.bmp"
+
+MAGICBAR                BITMAP                  "..\\RES\\magicbar.bmp"
+
+BLACK                   BITMAP                  "..\\res\\bitmap14.bmp"
+
+FIREATTACKMAGIC2        BITMAP                  "..\\RES\\fire_attack_magic2.bmp"
+
+ICEATTACKMAGIC2         BITMAP                  "..\\RES\\ice_attack_magic2.bmp"
+
+FIREBALLMOVIE           BITMAP                  "..\\RES\\fireballmovie.bmp"
+
+ICEBALLMOVIE            BITMAP                  "..\\RES\\iceballmovie.bmp"
+
+FIREATTACKMAGIC3        BITMAP                  "..\\RES\\fire_attack_magic3.bmp"
+
+FIREATTACKMAGIC4        BITMAP                  "..\\RES\\fire_attack_magic4.bmp"
+
+ICEATTACKMAGIC3         BITMAP                  "..\\RES\\ice_attack_magic3.bmp"
+
+ICEATTACKMAGIC4         BITMAP                  "..\\RES\\ice_attack_magic4.bmp"
+
+FIREBULLET2             BITMAP                  "..\\RES\\bullet_2.bmp"
+
+FIREBULLET3             BITMAP                  "..\\RES\\bullet_3.bmp"
+
+FIREBULLET4             BITMAP                  "..\\RES\\bullet_4.bmp"
+
+FIREBULLET5             BITMAP                  "..\\RES\\bullet_5.bmp"
+
+FIREBULLET6             BITMAP                  "..\\RES\\bullet_6.bmp"
+
+FIREBULLET7             BITMAP                  "..\\RES\\bullet_7.bmp"
+
+FIREBULLET8             BITMAP                  "..\\RES\\bullet_8.bmp"
+
+FIREBULLET9             BITMAP                  "..\\RES\\bullet_9.bmp"
+
+FIREBULLET10            BITMAP                  "..\\RES\\bullet_10.bmp"
+
+FIREBULLET11            BITMAP                  "..\\RES\\bullet_11.bmp"
+
+FIREBULLET12            BITMAP                  "..\\RES\\bullet_12.bmp"
+
+FIREBULLET13            BITMAP                  "..\\RES\\bullet_13.bmp"
+
+FIREBULLET14            BITMAP                  "..\\RES\\bullet_14.bmp"
+
+FIREBULLET15            BITMAP                  "..\\RES\\bullet_15.bmp"
+
+FIREBULLET16            BITMAP                  "..\\RES\\bullet_16.bmp"
+
+FIREBULLET17            BITMAP                  "..\\RES\\bullet_17.bmp"
+
+FIREBULLET18            BITMAP                  "..\\RES\\bullet_18.bmp"
+
+FIREBULLET19            BITMAP                  "..\\RES\\bullet_19.bmp"
+
+FIREBULLET20            BITMAP                  "..\\RES\\bullet_20.bmp"
+
+FIREBULLET21            BITMAP                  "..\\RES\\bullet_21.bmp"
+
+FIREBULLET22            BITMAP                  "..\\RES\\bullet_22.bmp"
+
+FIREBULLET23            BITMAP                  "..\\RES\\bullet_23.bmp"
+
+FIREBULLET1             BITMAP                  "..\\RES\\bullet_1.bmp"
+
+ICEBULLET1              BITMAP                  "..\\RES\\bullet_24.bmp"
+
+ICEBULLET2              BITMAP                  "..\\RES\\bullet_25.bmp"
+
+ICEBULLET3              BITMAP                  "..\\RES\\bullet_26.bmp"
+
+ICEBULLET4              BITMAP                  "..\\RES\\bullet_27.bmp"
+
+ICEBULLET5              BITMAP                  "..\\RES\\bullet_28.bmp"
+
+ICEBULLET6              BITMAP                  "..\\RES\\bullet_29.bmp"
+
+ICEBULLET7              BITMAP                  "..\\RES\\bullet_30.bmp"
+
+ICEBULLET8              BITMAP                  "..\\RES\\bullet_31.bmp"
+
+ICEBULLET9              BITMAP                  "..\\RES\\bullet_32.bmp"
+
+ICEBULLET10             BITMAP                  "..\\RES\\bullet_33.bmp"
+
+ICEBULLET11             BITMAP                  "..\\RES\\bullet_34.bmp"
+
+ICEBULLET12             BITMAP                  "..\\RES\\bullet_35.bmp"
+
+ICEBULLET13             BITMAP                  "..\\RES\\bullet_36.bmp"
+
+ICEBULLET14             BITMAP                  "..\\RES\\bullet_37.bmp"
+
+ICEBULLET15             BITMAP                  "..\\RES\\bullet_38.bmp"
+
+ICEBULLET16             BITMAP                  "..\\RES\\bullet_39.bmp"
+
+winnerBack              BITMAP                  "..\\RES\\winnerbackground.bmp"
+
+INSTRUCT01              BITMAP                  "..\\RES\\instructor01.bmp"
+
+INSTRUCT02              BITMAP                  "..\\RES\\instructor02.bmp"
+
+INSTRUCT03              BITMAP                  "..\\RES\\instructor03.bmp"
+
+INSTRUCT04              BITMAP                  "..\\RES\\instructor04.bmp"
+
+WIND                    BITMAP                  "..\\RES\\Wind.bmp"
+
+Wind0                   BITMAP                  "..\\RES\\Wind0.bmp"
+
+WIND2                   BITMAP                  "..\\RES\\Wind2.bmp"
+
+ingame                  BITMAP                  "..\\RES\\ingame.bmp"
+
+ingame_menu             BITMAP                  "..\\RES\\ingame_menu.bmp"
+
+ingame_retry            BITMAP                  "..\\RES\\ingame_retry.bmp"
+
+SASUKECOMBO1            BITMAP                  "..\\RES\\Sasuke\\Combo.bmp"
+
+SASUKECOMBO2            BITMAP                  "..\\RES\\Sasuke\\Combo2.bmp"
+
+SASUKECOMBO3            BITMAP                  "..\\RES\\Sasuke\\Combo3.bmp"
+
+SASUKECOMBO4            BITMAP                  "..\\RES\\Sasuke\\Combo4.bmp"
+
+SASUKECOMBO5            BITMAP                  "..\\RES\\Sasuke\\Combo5.bmp"
+
+SASUKECOMBO6            BITMAP                  "..\\RES\\Sasuke\\Combo6.bmp"
+
+SASUKECOMBO7            BITMAP                  "..\\RES\\Sasuke\\Combo7.bmp"
+
+SASUKECOMBO8            BITMAP                  "..\\RES\\Sasuke\\Combo8.bmp"
+
+SASUKECOMBO9            BITMAP                  "..\\RES\\Sasuke\\Combo9.bmp"
+
+SASUKECOMBO10           BITMAP                  "..\\RES\\Sasuke\\Combo10.bmp"
+
+SASUKECOMBO11           BITMAP                  "..\\RES\\Sasuke\\Combo11.bmp"
+
+SASUKECOMBO12           BITMAP                  "..\\RES\\Sasuke\\Combo12.bmp"
+
+SASUKECOMBO13           BITMAP                  "..\\RES\\Sasuke\\Combo13.bmp"
+
+SASUKECOMBO14           BITMAP                  "..\\RES\\Sasuke\\Combo14.bmp"
+
+SASUKECOMBO15           BITMAP                  "..\\RES\\Sasuke\\Combo15.bmp"
+
+SASUKECOMBO16           BITMAP                  "..\\RES\\Sasuke\\Combo16.bmp"
+
+SASUKECOMBO17           BITMAP                  "..\\RES\\Sasuke\\Combo17.bmp"
+
+SASUKECOMBO18           BITMAP                  "..\\RES\\Sasuke\\Combo18.bmp"
+
+SASUKECOMBO19           BITMAP                  "..\\RES\\Sasuke\\Combo19.bmp"
+
+SASUKECOMBO20           BITMAP                  "..\\RES\\Sasuke\\Combo20.bmp"
+
+SASUKEDIE1              BITMAP                  "..\\RES\\Sasuke\\Die.bmp"
+
+SASUKEDIE2              BITMAP                  "..\\RES\\Sasuke\\Die2.bmp"
+
+SASUKEDIE3              BITMAP                  "..\\RES\\Sasuke\\Die3.bmp"
+
+SASUKEDIE4              BITMAP                  "..\\RES\\Sasuke\\Die4.bmp"
+
+SASUKEDIE5              BITMAP                  "..\\RES\\Sasuke\\Die5.bmp"
+
+SASUKEDIE6              BITMAP                  "..\\RES\\Sasuke\\Die6.bmp"
+
+SASUKEDIE7              BITMAP                  "..\\RES\\Sasuke\\Die7.bmp"
+
+SASUKEDIE8              BITMAP                  "..\\RES\\Sasuke\\Die8.bmp"
+
+SASUKEDIE9              BITMAP                  "..\\RES\\Sasuke\\Die9.bmp"
+
+SASUKEDIE10             BITMAP                  "..\\RES\\Sasuke\\Die10.bmp"
+
+SASUKEDIE11             BITMAP                  "..\\RES\\Sasuke\\Die11.bmp"
+
+SASUKEDIE12             BITMAP                  "..\\RES\\Sasuke\\Die12.bmp"
+
+SASUKEDIE13             BITMAP                  "..\\RES\\Sasuke\\Die13.bmp"
+
+SASUKEDIE14             BITMAP                  "..\\RES\\Sasuke\\Die14.bmp"
+
+SASUKEDIE15             BITMAP                  "..\\RES\\Sasuke\\Die15.bmp"
+
+SASUKEDIE16             BITMAP                  "..\\RES\\Sasuke\\Die16.bmp"
+
+SASUKEDIE17             BITMAP                  "..\\RES\\Sasuke\\Die17.bmp"
+
+SASUKEDIE18             BITMAP                  "..\\RES\\Sasuke\\Die18.bmp"
+
+SASUKEDOWN1             BITMAP                  "..\\RES\\Sasuke\\Down.bmp"
+
+SASUKEDOWN2             BITMAP                  "..\\RES\\Sasuke\\Down2.bmp"
+
+SASUKEFIREBALL1         BITMAP                  "..\\RES\\Sasuke\\Fireball.bmp"
+
+SASUKEFIREBALL2         BITMAP                  "..\\RES\\Sasuke\\Fireball2.bmp"
+
+SASUKEFIREBALL3         BITMAP                  "..\\RES\\Sasuke\\Fireball3.bmp"
+
+SASUKEFIREBALL4         BITMAP                  "..\\RES\\Sasuke\\Fireball4.bmp"
+
+SASUKEFIREBALL5         BITMAP                  "..\\RES\\Sasuke\\Fireball5.bmp"
+
+SASUKEFIREBALL6         BITMAP                  "..\\RES\\Sasuke\\Fireball6.bmp"
+
+SASUKEFIREBALL7         BITMAP                  "..\\RES\\Sasuke\\Fireball7.bmp"
+
+SASUKEFIREBALL8         BITMAP                  "..\\RES\\Sasuke\\Fireball8.bmp"
+
+SASUKEFIREBALL9         BITMAP                  "..\\RES\\Sasuke\\Fireball9.bmp"
+
+SASUKEFIREBALL10        BITMAP                  "..\\RES\\Sasuke\\Fireball10.bmp"
+
+SASUKEFIREBALL11        BITMAP                  "..\\RES\\Sasuke\\Fireball11.bmp"
+
+SASUKEFIREBALL12        BITMAP                  "..\\RES\\Sasuke\\Fireball12.bmp"
+
+SASUKEFIREBALL13        BITMAP                  "..\\RES\\Sasuke\\Fireball13.bmp"
+
+SASUKEFIREBALL14        BITMAP                  "..\\RES\\Sasuke\\Fireball14.bmp"
+
+SASUKEFIREBALL15        BITMAP                  "..\\RES\\Sasuke\\Fireball15.bmp"
+
+SASUKEFIREBALL16        BITMAP                  "..\\RES\\Sasuke\\Fireball16.bmp"
+
+SASUKEFIREBALL17        BITMAP                  "..\\RES\\Sasuke\\Fireball17.bmp"
+
+SASUKEFIREBALL18        BITMAP                  "..\\RES\\Sasuke\\Fireball18.bmp"
+
+SASUKEFIREBALL19        BITMAP                  "..\\RES\\Sasuke\\Fireball19.bmp"
+
+SASUKEFIREBALL20        BITMAP                  "..\\RES\\Sasuke\\Fireball20.bmp"
+
+SASUKEFIREBALL21        BITMAP                  "..\\RES\\Sasuke\\Fireball21.bmp"
+
+SASUKEFIREBALL22        BITMAP                  "..\\RES\\Sasuke\\Fireball22.bmp"
+
+SASUKEFIREBALL23        BITMAP                  "..\\RES\\Sasuke\\Fireball23.bmp"
+
+SASUKEFIREBALL24        BITMAP                  "..\\RES\\Sasuke\\Fireball24.bmp"
+
+SASUKEFIREBALL25        BITMAP                  "..\\RES\\Sasuke\\Fireball25.bmp"
+
+SASUKEFIREBALL26        BITMAP                  "..\\RES\\Sasuke\\Fireball26.bmp"
+
+SASUKEFIREBALL27        BITMAP                  "..\\RES\\Sasuke\\Fireball27.bmp"
+
+SASUKEFIREBALL28        BITMAP                  "..\\RES\\Sasuke\\Fireball28.bmp"
+
+SASUKEFIREBALL29        BITMAP                  "..\\RES\\Sasuke\\Fireball29.bmp"
+
+SASUKEFIREBALL30        BITMAP                  "..\\RES\\Sasuke\\Fireball30.bmp"
+
+SASUKEFIREBALL31        BITMAP                  "..\\RES\\Sasuke\\Fireball31.bmp"
+
+SASUKEFIREBALL32        BITMAP                  "..\\RES\\Sasuke\\Fireball32.bmp"
+
+SASUKEFIREBALL33        BITMAP                  "..\\RES\\Sasuke\\Fireball33.bmp"
+
+SASUKEFIREBALL34        BITMAP                  "..\\RES\\Sasuke\\Fireball34.bmp"
+
+SASUKEFIREBALL35        BITMAP                  "..\\RES\\Sasuke\\Fireball35.bmp"
+
+SASUKEFIREBALL36        BITMAP                  "..\\RES\\Sasuke\\Fireball36.bmp"
+
+SASUKEFIREBALL37        BITMAP                  "..\\RES\\Sasuke\\Fireball37.bmp"
+
+SASUKEFIREBALL38        BITMAP                  "..\\RES\\Sasuke\\Fireball38.bmp"
+
+SASUKEFIREBALL39        BITMAP                  "..\\RES\\Sasuke\\Fireball39.bmp"
+
+SASUKEFIREBALL40        BITMAP                  "..\\RES\\Sasuke\\Fireball40.bmp"
+
+NARUTOGAMEHIT           BITMAP                  "..\\RES\\Sasuke\\Hit.bmp"
+
+SASUKEHOUSENKA1         BITMAP                  "..\\RES\\Sasuke\\Housenka.bmp"
+
+SASUKEHOUSENKA2         BITMAP                  "..\\RES\\Sasuke\\Housenka2.bmp"
+
+SASUKEHOUSENKA3         BITMAP                  "..\\RES\\Sasuke\\Housenka3.bmp"
+
+SASUKEHOUSENKA4         BITMAP                  "..\\RES\\Sasuke\\Housenka4.bmp"
+
+SASUKEHOUSENKA5         BITMAP                  "..\\RES\\Sasuke\\Housenka5.bmp"
+
+SASUKEHOUSENKA6         BITMAP                  "..\\RES\\Sasuke\\Housenka6.bmp"
+
+SASUKEHOUSENKA7         BITMAP                  "..\\RES\\Sasuke\\Housenka7.bmp"
+
+SASUKEHOUSENKA8         BITMAP                  "..\\RES\\Sasuke\\Housenka8.bmp"
+
+SASUKEHOUSENKA9         BITMAP                  "..\\RES\\Sasuke\\Housenka9.bmp"
+
+SASUKEHOUSENKA10        BITMAP                  "..\\RES\\Sasuke\\Housenka10.bmp"
+
+SASUKEHOUSENKA11        BITMAP                  "..\\RES\\Sasuke\\Housenka11.bmp"
+
+SASUKEHOUSENKA12        BITMAP                  "..\\RES\\Sasuke\\Housenka12.bmp"
+
+SASUKEHOUSENKA13        BITMAP                  "..\\RES\\Sasuke\\Housenka13.bmp"
+
+SASUKEHOUSENKA14        BITMAP                  "..\\RES\\Sasuke\\Housenka14.bmp"
+
+SASUKEHOUSENKA15        BITMAP                  "..\\RES\\Sasuke\\Housenka15.bmp"
+
+SASUKEHOUSENKA16        BITMAP                  "..\\RES\\Sasuke\\Housenka16.bmp"
+
+SASUKEHOUSENKA17        BITMAP                  "..\\RES\\Sasuke\\Housenka17.bmp"
+
+SASUKEHOUSENKA18        BITMAP                  "..\\RES\\Sasuke\\Housenka18.bmp"
+
+SASUKEHOUSENKA19        BITMAP                  "..\\RES\\Sasuke\\Housenka19.bmp"
+
+SASUKEHOUSENKA20        BITMAP                  "..\\RES\\Sasuke\\Housenka20.bmp"
+
+SASUKEHOUSENKA21        BITMAP                  "..\\RES\\Sasuke\\Housenka21.bmp"
+
+SASUKEHOUSENKA22        BITMAP                  "..\\RES\\Sasuke\\Housenka22.bmp"
+
+SASUKEHOUSENKA23        BITMAP                  "..\\RES\\Sasuke\\Housenka23.bmp"
+
+SASUKEHOUSENKA24        BITMAP                  "..\\RES\\Sasuke\\Housenka24.bmp"
+
+SASUKEHOUSENKA25        BITMAP                  "..\\RES\\Sasuke\\Housenka25.bmp"
+
+SASUKEHOUSENKA26        BITMAP                  "..\\RES\\Sasuke\\Housenka26.bmp"
+
+SASUKEHOUSENKA27        BITMAP                  "..\\RES\\Sasuke\\Housenka27.bmp"
+
+SASUKEHOUSENKA28        BITMAP                  "..\\RES\\Sasuke\\Housenka28.bmp"
+
+SASUKEHOUSENKA29        BITMAP                  "..\\RES\\Sasuke\\Housenka29.bmp"
+
+SASUKEHOUSENKA30        BITMAP                  "..\\RES\\Sasuke\\Housenka30.bmp"
+
+SASUKEHURT1             BITMAP                  "..\\RES\\Sasuke\\Hurt.bmp"
+
+SASUKEHURT2             BITMAP                  "..\\RES\\Sasuke\\Hurt2.bmp"
+
+SASUKEJUMP1             BITMAP                  "..\\RES\\Sasuke\\Jump.bmp"
+
+SASUKEJUMP2             BITMAP                  "..\\RES\\Sasuke\\Jump2.bmp"
+
+SASUKEJUMP3             BITMAP                  "..\\RES\\Sasuke\\Jump3.bmp"
+
+SASUKEJUMP4             BITMAP                  "..\\RES\\Sasuke\\Jump4.bmp"
+
+SASUKEJUMPKICK1         BITMAP                  "..\\RES\\Sasuke\\JumpKick.bmp"
+
+SASUKEJUMPKICK2         BITMAP                  "..\\RES\\Sasuke\\JumpKick2.bmp"
+
+SASUKEJUMPKICK3         BITMAP                  "..\\RES\\Sasuke\\JumpKick3.bmp"
+
+SASUKEJUMPKICK4         BITMAP                  "..\\RES\\Sasuke\\JumpKick4.bmp"
+
+SASUKEJUMPKICK5         BITMAP                  "..\\RES\\Sasuke\\JumpKick5.bmp"
+
+SASUKEJUMPKICK6         BITMAP                  "..\\RES\\Sasuke\\JumpKick6.bmp"
+
+SASUKEMOLDING1          BITMAP                  "..\\RES\\Sasuke\\Molding.bmp"
+
+SASUKEMOLDING2          BITMAP                  "..\\RES\\Sasuke\\Molding2.bmp"
+
+SASUKEMOLDING3          BITMAP                  "..\\RES\\Sasuke\\Molding3.bmp"
+
+SASUKEMOLDING4          BITMAP                  "..\\RES\\Sasuke\\Molding4.bmp"
+
+SASUKEMOLDING5          BITMAP                  "..\\RES\\Sasuke\\Molding5.bmp"
+
+SASUKEMOLDING6          BITMAP                  "..\\RES\\Sasuke\\Molding6.bmp"
+
+SASUKEMOLDING7          BITMAP                  "..\\RES\\Sasuke\\Molding7.bmp"
+
+SASUKEMOLDING8          BITMAP                  "..\\RES\\Sasuke\\Molding8.bmp"
+
+SASUKEMOLDING9          BITMAP                  "..\\RES\\Sasuke\\Molding9.bmp"
+
+SASUKEMOLDING10         BITMAP                  "..\\RES\\Sasuke\\Molding10.bmp"
+
+SASUKEMOLDING11         BITMAP                  "..\\RES\\Sasuke\\Molding11.bmp"
+
+SASUKEMOLDING12         BITMAP                  "..\\RES\\Sasuke\\Molding12.bmp"
+
+SASUKERENDAN1           BITMAP                  "..\\RES\\Sasuke\\Rendan.bmp"
+
+SASUKERENDAN2           BITMAP                  "..\\RES\\Sasuke\\Rendan2.bmp"
+
+SASUKERENDAN3           BITMAP                  "..\\RES\\Sasuke\\Rendan3.bmp"
+
+SASUKERENDAN4           BITMAP                  "..\\RES\\Sasuke\\Rendan4.bmp"
+
+SASUKERENDAN5           BITMAP                  "..\\RES\\Sasuke\\Rendan5.bmp"
+
+SASUKERENDAN6           BITMAP                  "..\\RES\\Sasuke\\Rendan6.bmp"
+
+SASUKERENDAN7           BITMAP                  "..\\RES\\Sasuke\\Rendan7.bmp"
+
+SASUKERENDAN8           BITMAP                  "..\\RES\\Sasuke\\Rendan8.bmp"
+
+SASUKERENDAN9           BITMAP                  "..\\RES\\Sasuke\\Rendan9.bmp"
+
+SASUKERENDAN10          BITMAP                  "..\\RES\\Sasuke\\Rendan10.bmp"
+
+SASUKERENDAN11          BITMAP                  "..\\RES\\Sasuke\\Rendan11.bmp"
+
+SASUKERENDAN12          BITMAP                  "..\\RES\\Sasuke\\Rendan12.bmp"
+
+SASUKERENDAN13          BITMAP                  "..\\RES\\Sasuke\\Rendan13.bmp"
+
+SASUKERENDAN14          BITMAP                  "..\\RES\\Sasuke\\Rendan14.bmp"
+
+SASUKERENDAN15          BITMAP                  "..\\RES\\Sasuke\\Rendan15.bmp"
+
+SASUKERENDAN16          BITMAP                  "..\\RES\\Sasuke\\Rendan16.bmp"
+
+SASUKERENDAN17          BITMAP                  "..\\RES\\Sasuke\\Rendan17.bmp"
+
+SASUKERENDAN18          BITMAP                  "..\\RES\\Sasuke\\Rendan18.bmp"
+
+SASUKERENDAN19          BITMAP                  "..\\RES\\Sasuke\\Rendan19.bmp"
+
+SASUKERENDAN20          BITMAP                  "..\\RES\\Sasuke\\Rendan20.bmp"
+
+SASUKERENDAN21          BITMAP                  "..\\RES\\Sasuke\\Rendan21.bmp"
+
+SASUKERENDAN22          BITMAP                  "..\\RES\\Sasuke\\Rendan22.bmp"
+
+SASUKERENDAN23          BITMAP                  "..\\RES\\Sasuke\\Rendan23.bmp"
+
+SASUKERENDAN24          BITMAP                  "..\\RES\\Sasuke\\Rendan24.bmp"
+
+SASUKERENDAN25          BITMAP                  "..\\RES\\Sasuke\\Rendan25.bmp"
+
+SASUKERENDAN26          BITMAP                  "..\\RES\\Sasuke\\Rendan26.bmp"
+
+SASUKERENDAN27          BITMAP                  "..\\RES\\Sasuke\\Rendan27.bmp"
+
+SASUKERENDAN28          BITMAP                  "..\\RES\\Sasuke\\Rendan28.bmp"
+
+SASUKERENDAN29          BITMAP                  "..\\RES\\Sasuke\\Rendan29.bmp"
+
+SASUKERENDAN30          BITMAP                  "..\\RES\\Sasuke\\Rendan30.bmp"
+
+SASUKERENDAN31          BITMAP                  "..\\RES\\Sasuke\\Rendan31.bmp"
+
+SASUKERENDAN32          BITMAP                  "..\\RES\\Sasuke\\Rendan32.bmp"
+
+SASUKERENDAN33          BITMAP                  "..\\RES\\Sasuke\\Rendan33.bmp"
+
+SASUKERENDAN34          BITMAP                  "..\\RES\\Sasuke\\Rendan34.bmp"
+
+SASUKERENDAN35          BITMAP                  "..\\RES\\Sasuke\\Rendan35.bmp"
+
+SASUKERENDAN36          BITMAP                  "..\\RES\\Sasuke\\Rendan36.bmp"
+
+SASUKERENDAN37          BITMAP                  "..\\RES\\Sasuke\\Rendan37.bmp"
+
+SASUKERENDAN38          BITMAP                  "..\\RES\\Sasuke\\Rendan38.bmp"
+
+SASUKERENDAN39          BITMAP                  "..\\RES\\Sasuke\\Rendan39.bmp"
+
+SASUKERENDAN40          BITMAP                  "..\\RES\\Sasuke\\Rendan40.bmp"
+
+SASUKERENDAN41          BITMAP                  "..\\RES\\Sasuke\\Rendan41.bmp"
+
+SASUKERENDAN42          BITMAP                  "..\\RES\\Sasuke\\Rendan42.bmp"
+
+SASUKERUN1              BITMAP                  "..\\RES\\Sasuke\\Run.bmp"
+
+SASUKERUN2              BITMAP                  "..\\RES\\Sasuke\\Run2.bmp"
+
+SASUKERUN3              BITMAP                  "..\\RES\\Sasuke\\Run3.bmp"
+
+SASUKERUN4              BITMAP                  "..\\RES\\Sasuke\\Run4.bmp"
+
+SHURIKAN                BITMAP                  "..\\RES\\Sasuke\\Shurikan.bmp"
+
+SHURIKAN2               BITMAP                  "..\\RES\\Sasuke\\Shurikan2.bmp"
+
+SHURIKAN3               BITMAP                  "..\\RES\\Sasuke\\Shurikan3.bmp"
+
+SASUKESKILL1            BITMAP                  "..\\RES\\Sasuke\\Skill1.bmp"
+
+SASUKESKILL2            BITMAP                  "..\\RES\\Sasuke\\Skill2.bmp"
+
+SASUKESKILL3            BITMAP                  "..\\RES\\Sasuke\\Skill3.bmp"
+
+SASUKESKILL4            BITMAP                  "..\\RES\\Sasuke\\Skill4.bmp"
+
+SASUKESKILL5            BITMAP                  "..\\RES\\Sasuke\\Skill5.bmp"
+
+SASUKESKILL6            BITMAP                  "..\\RES\\Sasuke\\Skill6.bmp"
+
+SASUKESKILL7            BITMAP                  "..\\RES\\Sasuke\\Skill7.bmp"
+
+SASUKESKILL8            BITMAP                  "..\\RES\\Sasuke\\Skill8.bmp"
+
+SASUKESKILLFAIL1        BITMAP                  "..\\RES\\Sasuke\\SkillFail.bmp"
+
+SASUKESKILLFAIL2        BITMAP                  "..\\RES\\Sasuke\\SkillFail2.bmp"
+
+SASUKESKILLFAIL3        BITMAP                  "..\\RES\\Sasuke\\SkillFail3.bmp"
+
+SASUKESKILLFAIL4        BITMAP                  "..\\RES\\Sasuke\\SkillFail4.bmp"
+
+SASUKESKILLFAIL5        BITMAP                  "..\\RES\\Sasuke\\SkillFail5.bmp"
+
+SASUKESKILLFAIL6        BITMAP                  "..\\RES\\Sasuke\\SkillFail6.bmp"
+
+SASUKESTAND1            BITMAP                  "..\\RES\\Sasuke\\Stand.bmp"
+
+SASUKESTAND2            BITMAP                  "..\\RES\\Sasuke\\Stand2.bmp"
+
+SASUKESTAND3            BITMAP                  "..\\RES\\Sasuke\\Stand3.bmp"
+
+SASUKESTAND4            BITMAP                  "..\\RES\\Sasuke\\Stand4.bmp"
+
+SASUKESTAND5            BITMAP                  "..\\RES\\Sasuke\\Stand5.bmp"
+
+SASUKESTAND6            BITMAP                  "..\\RES\\Sasuke\\Stand6.bmp"
+
+SASUKESTAND7            BITMAP                  "..\\RES\\Sasuke\\Stand7.bmp"
+
+SASUKESTAND8            BITMAP                  "..\\RES\\Sasuke\\Stand8.bmp"
+
+SASUKE                  BITMAP                  "..\\RES\\Sasuke\\UI.bmp"
+
+NarutoBackground        BITMAP                  "..\\RES\\NarutoBackground.bmp"
+
+transe                  BITMAP                  "..\\res\\bitmap40.bmp"
+
+ShikamaruDie1           BITMAP                  "..\\RES\\Shikamaru\\Die.bmp"
+
+ShikamaruDie2           BITMAP                  "..\\RES\\Shikamaru\\Die2.bmp"
+
+ShikamaruDie3           BITMAP                  "..\\RES\\Shikamaru\\Die3.bmp"
+
+ShikamaruDie4           BITMAP                  "..\\RES\\Shikamaru\\Die4.bmp"
+
+ShikamaruDie5           BITMAP                  "..\\RES\\Shikamaru\\Die5.bmp"
+
+ShikamaruDie6           BITMAP                  "..\\RES\\Shikamaru\\Die6.bmp"
+
+ShikamaruDie7           BITMAP                  "..\\RES\\Shikamaru\\Die7.bmp"
+
+ShikamaruDie8           BITMAP                  "..\\RES\\Shikamaru\\Die8.bmp"
+
+ShikamaruDie9           BITMAP                  "..\\RES\\Shikamaru\\Die9.bmp"
+
+ShikamaruDie10          BITMAP                  "..\\RES\\Shikamaru\\Die10.bmp"
+
+ShikamaruDie11          BITMAP                  "..\\RES\\Shikamaru\\Die11.bmp"
+
+ShikamaruDie12          BITMAP                  "..\\RES\\Shikamaru\\Die12.bmp"
+
+ShikamaruDie13          BITMAP                  "..\\RES\\Shikamaru\\Die13.bmp"
+
+ShikamaruDie14          BITMAP                  "..\\RES\\Shikamaru\\Die14.bmp"
+
+ShikamaruJump1          BITMAP                  "..\\RES\\Shikamaru\\Jump.bmp"
+
+ShikamaruJump2          BITMAP                  "..\\RES\\Shikamaru\\Jump2.bmp"
+
+ShikamaruJump3          BITMAP                  "..\\RES\\Shikamaru\\Jump3.bmp"
+
+ShikamaruJump4          BITMAP                  "..\\RES\\Shikamaru\\Jump4.bmp"
+
+ShikamarujumpKick1      BITMAP                  "..\\RES\\Shikamaru\\jumpKick1.bmp"
+
+ShikamarujumpKick2      BITMAP                  "..\\RES\\Shikamaru\\jumpKick2.bmp"
+
+ShikamarujumpKick3      BITMAP                  "..\\RES\\Shikamaru\\jumpKick3.bmp"
+
+ShikamarujumpKick4      BITMAP                  "..\\RES\\Shikamaru\\jumpKick4.bmp"
+
+ShikamarujumpKick5      BITMAP                  "..\\RES\\Shikamaru\\jumpKick5.bmp"
+
+ShikamarujumpKick6      BITMAP                  "..\\RES\\Shikamaru\\jumpKick6.bmp"
+
+Shikamarustand1         BITMAP                  "..\\RES\\Shikamaru\\stand1.bmp"
+
+Shikamarustand2         BITMAP                  "..\\RES\\Shikamaru\\stand2.bmp"
+
+Shikamarustand3         BITMAP                  "..\\RES\\Shikamaru\\stand3.bmp"
+
+Shikamarustand4         BITMAP                  "..\\RES\\Shikamaru\\stand4.bmp"
+
+Shikamarustand5         BITMAP                  "..\\RES\\Shikamaru\\stand5.bmp"
+
+Shikamarustand6         BITMAP                  "..\\RES\\Shikamaru\\stand6.bmp"
+
+Shikamarustand7         BITMAP                  "..\\RES\\Shikamaru\\stand7.bmp"
+
+Shikamarustand8         BITMAP                  "..\\RES\\Shikamaru\\stand8.bmp"
+
+Shikamaruthrow1         BITMAP                  "..\\RES\\Shikamaru\\throw1.bmp"
+
+Shikamaruthrow2         BITMAP                  "..\\RES\\Shikamaru\\throw2.bmp"
+
+Shikamaruthrow3         BITMAP                  "..\\RES\\Shikamaru\\throw3.bmp"
+
+Shikamaruthrow4         BITMAP                  "..\\RES\\Shikamaru\\throw4.bmp"
+
+Shikamaruthrow5         BITMAP                  "..\\RES\\Shikamaru\\throw5.bmp"
+
+Shikamaruthrow6         BITMAP                  "..\\RES\\Shikamaru\\throw6.bmp"
+
+ShikamaruRun1           BITMAP                  "..\\RES\\Shikamaru\\Run.bmp"
+
+ShikamaruRun2           BITMAP                  "..\\RES\\Shikamaru\\Run2.bmp"
+
+ShikamaruRun3           BITMAP                  "..\\RES\\Shikamaru\\Run3.bmp"
+
+ShikamaruRun4           BITMAP                  "..\\RES\\Shikamaru\\Run4.bmp"
+
+map5                    BITMAP                  "..\\RES\\map5.bmp"
+
+map5mainmenu            BITMAP                  "..\\RES\\map5mainmenu.bmp"
+
+blood_background        BITMAP                  "..\\RES\\blood_background.bmp"
+
+blood                   BITMAP                  "..\\RES\\blood_green.bmp"
+
+blood_2                 BITMAP                  "..\\RES\\blood_orange.bmp"
+
+ShikamaruUI             BITMAP                  "..\\RES\\Shikamaru\\ShikamaruUI.bmp"
+
+ShikamaruSkill1         BITMAP                  "..\\RES\\Shikamaru\\Skill.bmp"
+
+ShikamaruSkill2         BITMAP                  "..\\RES\\Shikamaru\\Skill2.bmp"
+
+ShikamaruSkill3         BITMAP                  "..\\RES\\Shikamaru\\Skill3.bmp"
+
+ShikamaruSkill4         BITMAP                  "..\\RES\\Shikamaru\\Skill4.bmp"
+
+ShikamaruSkill5         BITMAP                  "..\\RES\\Shikamaru\\Skill5.bmp"
+
+ShikamaruSkill6         BITMAP                  "..\\RES\\Shikamaru\\Skill6.bmp"
+
+ShikamaruSkill7         BITMAP                  "..\\RES\\Shikamaru\\Skill7.bmp"
+
+ShikamaruSkill8         BITMAP                  "..\\RES\\Shikamaru\\Skill8.bmp"
+
+ShikamaruSkill9         BITMAP                  "..\\RES\\Shikamaru\\Skill9.bmp"
+
+ShikamaruSkill10        BITMAP                  "..\\RES\\Shikamaru\\Skill10.bmp"
+
+ShikamaruSkill11        BITMAP                  "..\\RES\\Shikamaru\\Skill11.bmp"
+
+ShikamaruSkill12        BITMAP                  "..\\RES\\Shikamaru\\Skill12.bmp"
+
+ShikamaruSkill13        BITMAP                  "..\\RES\\Shikamaru\\Skill13.bmp"
+
+ShikamaruSkill14        BITMAP                  "..\\RES\\Shikamaru\\Skill14.bmp"
+
+ShikamaruSkill15        BITMAP                  "..\\RES\\Shikamaru\\Skill15.bmp"
+
+ShikamaruSkill16        BITMAP                  "..\\RES\\Shikamaru\\Skill16.bmp"
+
+ShikamaruSkill17        BITMAP                  "..\\RES\\Shikamaru\\Skill17.bmp"
+
+ShikamaruSkill18        BITMAP                  "..\\RES\\Shikamaru\\Skill18.bmp"
+
+ShikamaruSkill19        BITMAP                  "..\\RES\\Shikamaru\\Skill19.bmp"
+
+ShikamaruSkill20        BITMAP                  "..\\RES\\Shikamaru\\Skill20.bmp"
+
+ShikamaruSkill21        BITMAP                  "..\\RES\\Shikamaru\\Skill21.bmp"
+
+ShikamaruSkill22        BITMAP                  "..\\RES\\Shikamaru\\Skill22.bmp"
+
+ShikamaruSkill23        BITMAP                  "..\\RES\\Shikamaru\\Skill23.bmp"
+
+ShikamaruSkill24        BITMAP                  "..\\RES\\Shikamaru\\Skill24.bmp"
+
+ShikamaruSkill25        BITMAP                  "..\\RES\\Shikamaru\\Skill25.bmp"
+
+ShikamaruSkill26        BITMAP                  "..\\RES\\Shikamaru\\Skill26.bmp"
+
+ShikamaruSkill27        BITMAP                  "..\\RES\\Shikamaru\\Skill27.bmp"
+
+ShikamaruSkill28        BITMAP                  "..\\RES\\Shikamaru\\Skill28.bmp"
+
+ShikamaruSkill29        BITMAP                  "..\\RES\\Shikamaru\\Skill29.bmp"
+
+ShikamaruSkill30        BITMAP                  "..\\RES\\Shikamaru\\Skill30.bmp"
+
+ShikamaruSkill31        BITMAP                  "..\\RES\\Shikamaru\\Skill31.bmp"
+
+ShikamaruSkill32        BITMAP                  "..\\RES\\Shikamaru\\Skill32.bmp"
+
+ShikamaruSkill33        BITMAP                  "..\\RES\\Shikamaru\\Skill33.bmp"
+
+ShikamaruSkill34        BITMAP                  "..\\RES\\Shikamaru\\Skill34.bmp"
+
+ShikamaruSkillUI        BITMAP                  "..\\RES\\Shikamaru\\SkillUI.bmp"
+
+SasukeMagicBar          BITMAP                  "..\\RES\\Sasuke\\SkillUI.bmp"
+
+Magic1                  BITMAP                  "..\\res\\bmp00003.bmp"
+
+chakura_black           BITMAP                  "..\\res\\chakura.bmp"
+
+NejiCombo1              BITMAP                  "..\\RES\\Neji\\Combo1.bmp"
+
+NejiCombo2              BITMAP                  "..\\RES\\Neji\\Combo2.bmp"
+
+NejiCombo3              BITMAP                  "..\\RES\\Neji\\Combo3.bmp"
+
+NejiCombo4              BITMAP                  "..\\RES\\Neji\\Combo4.bmp"
+
+NejiDie1                BITMAP                  "..\\RES\\Neji\\Die1.bmp"
+
+NejiDie2                BITMAP                  "..\\RES\\Neji\\Die2.bmp"
+
+NejiDie3                BITMAP                  "..\\RES\\Neji\\Die3.bmp"
+
+NejiDie4                BITMAP                  "..\\RES\\Neji\\Die4.bmp"
+
+NejiHurt1               BITMAP                  "..\\RES\\Neji\\Hurt1.bmp"
+
+NejiHurt2               BITMAP                  "..\\RES\\Neji\\Hurt2.bmp"
+
+NejiRun1                BITMAP                  "..\\RES\\Neji\\Run1.bmp"
+
+NejiRun2                BITMAP                  "..\\RES\\Neji\\Run2.bmp"
+
+NejiRun3                BITMAP                  "..\\RES\\Neji\\Run3.bmp"
+
+NejiRun4                BITMAP                  "..\\RES\\Neji\\Run4.bmp"
+
+NejiRun5                BITMAP                  "..\\RES\\Neji\\Run5.bmp"
+
+NejiRun6                BITMAP                  "..\\RES\\Neji\\Run6.bmp"
+
+NejiSkill1              BITMAP                  "..\\RES\\Neji\\Skill1.bmp"
+
+NejiSkill2              BITMAP                  "..\\RES\\Neji\\Skill2.bmp"
+
+NejiSkill3              BITMAP                  "..\\RES\\Neji\\Skill3.bmp"
+
+NejiSkill4              BITMAP                  "..\\RES\\Neji\\Skill4.bmp"
+
+NejiSkill5              BITMAP                  "..\\RES\\Neji\\Skill5.bmp"
+
+NejiSkill6              BITMAP                  "..\\RES\\Neji\\Skill6.bmp"
+
+NejiSkill7              BITMAP                  "..\\RES\\Neji\\Skill7.bmp"
+
+NejiSkill8              BITMAP                  "..\\RES\\Neji\\Skill8.bmp"
+
+NejiSkill9              BITMAP                  "..\\RES\\Neji\\Skill9.bmp"
+
+NejiSkill10             BITMAP                  "..\\RES\\Neji\\Skill10.bmp"
+
+NejiSkill11             BITMAP                  "..\\RES\\Neji\\Skill11.bmp"
+
+NejiSkill12             BITMAP                  "..\\RES\\Neji\\Skill12.bmp"
+
+NejiSkill13             BITMAP                  "..\\RES\\Neji\\Skill13.bmp"
+
+NejiSkill14             BITMAP                  "..\\RES\\Neji\\Skill14.bmp"
+
+NejiSkill15             BITMAP                  "..\\RES\\Neji\\Skill15.bmp"
+
+NejiSkill16             BITMAP                  "..\\RES\\Neji\\Skill16.bmp"
+
+NejiSkill17             BITMAP                  "..\\RES\\Neji\\Skill17.bmp"
+
+NejiSkill18             BITMAP                  "..\\RES\\Neji\\Skill18.bmp"
+
+NejiSkill19             BITMAP                  "..\\RES\\Neji\\Skill19.bmp"
+
+NejiSkill20             BITMAP                  "..\\RES\\Neji\\Skill20.bmp"
+
+NejiSkill21             BITMAP                  "..\\RES\\Neji\\Skill21.bmp"
+
+NejiSkill22             BITMAP                  "..\\RES\\Neji\\Skill22.bmp"
+
+NejiSkill23             BITMAP                  "..\\RES\\Neji\\Skill23.bmp"
+
+NejiSkill24             BITMAP                  "..\\RES\\Neji\\Skill24.bmp"
+
+NejiSkill25             BITMAP                  "..\\RES\\Neji\\Skill25.bmp"
+
+NejiSkill26             BITMAP                  "..\\RES\\Neji\\Skill26.bmp"
+
+NejiSkill27             BITMAP                  "..\\RES\\Neji\\Skill27.bmp"
+
+NejiSkill28             BITMAP                  "..\\RES\\Neji\\Skill28.bmp"
+
+NejiSkill29             BITMAP                  "..\\RES\\Neji\\Skill29.bmp"
+
+NejiStand               BITMAP                  "..\\RES\\Neji\\Stand.bmp"
+
+NejiUI                  BITMAP                  "..\\RES\\Neji\\UI.bmp"
+
+NejiCombo5              BITMAP                  "..\\RES\\Neji\\Combo5.bmp"
+
+NejiCombo6              BITMAP                  "..\\RES\\Neji\\Combo6.bmp"
+
+NejiCombo7              BITMAP                  "..\\RES\\Neji\\Combo7.bmp"
+
+NejiCombo8              BITMAP                  "..\\RES\\Neji\\Combo8.bmp"
+
+NejiDie5                BITMAP                  "..\\RES\\Neji\\Die5.bmp"
+
+NejiDie6                BITMAP                  "..\\RES\\Neji\\Die6.bmp"
+
+NejiDie7                BITMAP                  "..\\RES\\Neji\\Die7.bmp"
+
+NejiDie8                BITMAP                  "..\\RES\\Neji\\Die8.bmp"
+
+NejiHurt3               BITMAP                  "..\\RES\\Neji\\Hurt3.bmp"
+
+NejiHurt4               BITMAP                  "..\\RES\\Neji\\Hurt4.bmp"
+
+NejiRun7                BITMAP                  "..\\RES\\Neji\\Run7.bmp"
+
+NejiRun8                BITMAP                  "..\\RES\\Neji\\Run8.bmp"
+
+NejiRun9                BITMAP                  "..\\RES\\Neji\\Run9.bmp"
+
+NejiRun10               BITMAP                  "..\\RES\\Neji\\Run10.bmp"
+
+NejiRun11               BITMAP                  "..\\RES\\Neji\\Run11.bmp"
+
+NejiRun12               BITMAP                  "..\\RES\\Neji\\Run12.bmp"
+
+NejiSkill30             BITMAP                  "..\\RES\\Neji\\Skill30.bmp"
+
+NejiSkill31             BITMAP                  "..\\RES\\Neji\\Skill31.bmp"
+
+NejiSkill32             BITMAP                  "..\\RES\\Neji\\Skill32.bmp"
+
+NejiSkill33             BITMAP                  "..\\RES\\Neji\\Skill33.bmp"
+
+NejiSkill34             BITMAP                  "..\\RES\\Neji\\Skill34.bmp"
+
+NejiSkill35             BITMAP                  "..\\RES\\Neji\\Skill35.bmp"
+
+NejiSkill36             BITMAP                  "..\\RES\\Neji\\Skill36.bmp"
+
+NejiSkill37             BITMAP                  "..\\RES\\Neji\\Skill37.bmp"
+
+NejiSkill38             BITMAP                  "..\\RES\\Neji\\Skill38.bmp"
+
+NejiSkill39             BITMAP                  "..\\RES\\Neji\\Skill39.bmp"
+
+NejiSkill40             BITMAP                  "..\\RES\\Neji\\Skill40.bmp"
+
+NejiSkill41             BITMAP                  "..\\RES\\Neji\\Skill41.bmp"
+
+NejiSkill42             BITMAP                  "..\\RES\\Neji\\Skill42.bmp"
+
+NejiSkill43             BITMAP                  "..\\RES\\Neji\\Skill43.bmp"
+
+NejiSkill44             BITMAP                  "..\\RES\\Neji\\Skill44.bmp"
+
+NejiSkill45             BITMAP                  "..\\RES\\Neji\\Skill45.bmp"
+
+NejiSkill46             BITMAP                  "..\\RES\\Neji\\Skill46.bmp"
+
+NejiSkill47             BITMAP                  "..\\RES\\Neji\\Skill47.bmp"
+
+NejiSkill48             BITMAP                  "..\\RES\\Neji\\Skill48.bmp"
+
+NejiSkill49             BITMAP                  "..\\RES\\Neji\\Skill49.bmp"
+
+NejiSkill50             BITMAP                  "..\\RES\\Neji\\Skill50.bmp"
+
+NejiSkill51             BITMAP                  "..\\RES\\Neji\\Skill51.bmp"
+
+NejiSkill52             BITMAP                  "..\\RES\\Neji\\Skill52.bmp"
+
+NejiSkill53             BITMAP                  "..\\RES\\Neji\\Skill53.bmp"
+
+NejiSkill54             BITMAP                  "..\\RES\\Neji\\Skill54.bmp"
+
+NejiSkill55             BITMAP                  "..\\RES\\Neji\\Skill55.bmp"
+
+NejiSkill56             BITMAP                  "..\\RES\\Neji\\Skill56.bmp"
+
+NejiSkill57             BITMAP                  "..\\RES\\Neji\\Skill57.bmp"
+
+NejiSkill58             BITMAP                  "..\\RES\\Neji\\Skill58.bmp"
+
+NejiStand2              BITMAP                  "..\\RES\\Neji\\Stand2.bmp"
+
+NejiSkillUI             BITMAP                  "..\\RES\\Neji\\SkillUI.bmp"
+
+NejiSkill59             BITMAP                  "..\\RES\\Neji\\Skill59.bmp"
+
+NejiSkill60             BITMAP                  "..\\RES\\Neji\\Skill60.bmp"
+
+NejiSkill61             BITMAP                  "..\\RES\\Neji\\Skill61.bmp"
+
+NejiSkill62             BITMAP                  "..\\RES\\Neji\\Skill62.bmp"
+
+NejiSkill63             BITMAP                  "..\\RES\\Neji\\Skill63.bmp"
+
+NejiSkill64             BITMAP                  "..\\RES\\Neji\\Skill64.bmp"
+
+SasukeSkill2UI          BITMAP                  "..\\RES\\Sasuke\\SasukeSkill2UI.bmp"
+
+SasukeSkillUI           BITMAP                  "..\\RES\\Sasuke\\SasukeSkillUI.bmp"
+
+SasukeSkillText1        BITMAP                  "..\\RES\\Sasuke\\SkillText1.bmp"
+
+SasukeSkillText2        BITMAP                  "..\\RES\\Sasuke\\SkillText2.bmp"
+
+SasukeSkillText3        BITMAP                  "..\\RES\\Sasuke\\SkillText3.bmp"
+
+SasukeSkillText4        BITMAP                  "..\\RES\\Sasuke\\SkillText4.bmp"
+
+KAKASHI001              BITMAP                  "..\\RES\\Kakashi001.bmp"
+
+KAKASHI002              BITMAP                  "..\\RES\\Kakashi002.bmp"
+
+KAKASHI003              BITMAP                  "..\\RES\\Kakashi003.bmp"
+
+KAKASHI004              BITMAP                  "..\\RES\\Kakashi004.bmp"
+
+KAKASHI005              BITMAP                  "..\\RES\\Kakashi005.bmp"
+
+KAKASHI006              BITMAP                  "..\\RES\\Kakashi006.bmp"
+
+KAKASHI007              BITMAP                  "..\\RES\\Kakashi007.bmp"
+
+KAKASHI008              BITMAP                  "..\\RES\\Kakashi008.bmp"
+
+KAKASHI009              BITMAP                  "..\\RES\\Kakashi009.bmp"
+
+KAKASHI010              BITMAP                  "..\\RES\\Kakashi010.bmp"
+
+KAKASHI011              BITMAP                  "..\\RES\\Kakashi011.bmp"
+
+KAKASHI012              BITMAP                  "..\\RES\\Kakashi012.bmp"
+
+KAKASHI013              BITMAP                  "..\\RES\\Kakashi013.bmp"
+
+KAKASHI014              BITMAP                  "..\\RES\\Kakashi014.bmp"
+
+KAKASHI015              BITMAP                  "..\\RES\\Kakashi015.bmp"
+
+KAKASHI016              BITMAP                  "..\\RES\\Kakashi016.bmp"
+
+KAKASHI017              BITMAP                  "..\\RES\\Kakashi017.bmp"
+
+KAKASHI018              BITMAP                  "..\\RES\\Kakashi018.bmp"
+
+KAKASHI101              BITMAP                  "..\\RES\\Kakashi101.bmp"
+
+KAKASHI102              BITMAP                  "..\\RES\\Kakashi102.bmp"
+
+KAKASHI103              BITMAP                  "..\\RES\\Kakashi103.bmp"
+
+KAKASHI104              BITMAP                  "..\\RES\\Kakashi104.bmp"
+
+KAKASHI105              BITMAP                  "..\\RES\\Kakashi105.bmp"
+
+KAKASHI106              BITMAP                  "..\\RES\\Kakashi106.bmp"
+
+KAKASHI107              BITMAP                  "..\\RES\\Kakashi107.bmp"
+
+KAKASHI108              BITMAP                  "..\\RES\\Kakashi108.bmp"
+
+KAKASHI109              BITMAP                  "..\\RES\\Kakashi109.bmp"
+
+KAKASHI110              BITMAP                  "..\\RES\\Kakashi110.bmp"
+
+KAKASHI111              BITMAP                  "..\\RES\\Kakashi111.bmp"
+
+KAKASHI201              BITMAP                  "..\\RES\\Kakashi201.bmp"
+
+KAKASHI202              BITMAP                  "..\\RES\\Kakashi202.bmp"
+
+KAKASHI203              BITMAP                  "..\\RES\\Kakashi203.bmp"
+
+KAKASHI204              BITMAP                  "..\\RES\\Kakashi204.bmp"
+
+KAKASHI205              BITMAP                  "..\\RES\\Kakashi205.bmp"
+
+KAKASHI206              BITMAP                  "..\\RES\\Kakashi206.bmp"
+
+KAKASHI207              BITMAP                  "..\\RES\\Kakashi207.bmp"
+
+KAKASHI208              BITMAP                  "..\\RES\\Kakashi208.bmp"
+
+KAKASHI209              BITMAP                  "..\\RES\\Kakashi209.bmp"
+
+KAKASHI210              BITMAP                  "..\\RES\\Kakashi210.bmp"
+
+KAKASHI211              BITMAP                  "..\\RES\\Kakashi211.bmp"
+
+KAKASHI212              BITMAP                  "..\\RES\\Kakashi212.bmp"
+
+KAKASHI213              BITMAP                  "..\\RES\\Kakashi213.bmp"
+
+KAKASHI214              BITMAP                  "..\\RES\\Kakashi214.bmp"
+
+KAKASHI301              BITMAP                  "..\\RES\\Kakashi301.bmp"
+
+KAKASHI302              BITMAP                  "..\\RES\\Kakashi302.bmp"
+
+KAKASHI303              BITMAP                  "..\\RES\\Kakashi303.bmp"
+
+KAKASHI304              BITMAP                  "..\\RES\\Kakashi304.bmp"
+
+KAKASHI305              BITMAP                  "..\\RES\\Kakashi305.bmp"
+
+KAKASHI306              BITMAP                  "..\\RES\\Kakashi306.bmp"
+
+KAKASHI307              BITMAP                  "..\\RES\\Kakashi307.bmp"
+
+KAKASHI308              BITMAP                  "..\\RES\\Kakashi308.bmp"
+
+KAKASHI309              BITMAP                  "..\\RES\\Kakashi309.bmp"
+
+KAKASHI310              BITMAP                  "..\\RES\\Kakashi310.bmp"
+
+KAKASHI311              BITMAP                  "..\\RES\\Kakashi311.bmp"
+
+KAKASHI312              BITMAP                  "..\\RES\\Kakashi312.bmp"
+
+KAKASHI313              BITMAP                  "..\\RES\\Kakashi313.bmp"
+
+KAKASHI314              BITMAP                  "..\\RES\\Kakashi314.bmp"
+
+KAKASHI315              BITMAP                  "..\\RES\\Kakashi315.bmp"
+
+KAKASHI316              BITMAP                  "..\\RES\\Kakashi316.bmp"
+
+KAKASHI317              BITMAP                  "..\\RES\\Kakashi317.bmp"
+
+KAKASHI401              BITMAP                  "..\\RES\\Kakashi401.bmp"
+
+KAKASHI402              BITMAP                  "..\\RES\\Kakashi402.bmp"
+
+KAKASHI403              BITMAP                  "..\\RES\\Kakashi403.bmp"
+
+KAKASHI404              BITMAP                  "..\\RES\\Kakashi404.bmp"
+
+KAKASHI405              BITMAP                  "..\\RES\\Kakashi405.bmp"
+
+KAKASHI406              BITMAP                  "..\\RES\\Kakashi406.bmp"
+
+KAKASHI407              BITMAP                  "..\\RES\\Kakashi407.bmp"
+
+KAKASHI408              BITMAP                  "..\\RES\\Kakashi408.bmp"
+
+KAKASHI409              BITMAP                  "..\\RES\\Kakashi409.bmp"
+
+KAKASHI410              BITMAP                  "..\\RES\\Kakashi410.bmp"
+
+KAKASHI411              BITMAP                  "..\\RES\\Kakashi411.bmp"
+
+KAKASHI412              BITMAP                  "..\\RES\\Kakashi412.bmp"
+
+KAKASHI413              BITMAP                  "..\\RES\\Kakashi413.bmp"
+
+KAKASHI414              BITMAP                  "..\\RES\\Kakashi414.bmp"
+
+KAKASHI415              BITMAP                  "..\\RES\\Kakashi415.bmp"
+
+KAKASHI501              BITMAP                  "..\\RES\\Kakashi501.bmp"
+
+KAKASHI502              BITMAP                  "..\\RES\\Kakashi502.bmp"
+
+KAKASHI503              BITMAP                  "..\\RES\\Kakashi503.bmp"
+
+KAKASHI504              BITMAP                  "..\\RES\\Kakashi504.bmp"
+
+KAKASHI505              BITMAP                  "..\\RES\\Kakashi505.bmp"
+
+KAKASHI506              BITMAP                  "..\\RES\\Kakashi506.bmp"
+
+KAKASHI507              BITMAP                  "..\\RES\\Kakashi507.bmp"
+
+KAKASHI508              BITMAP                  "..\\RES\\Kakashi508.bmp"
+
+KAKASHI509              BITMAP                  "..\\RES\\Kakashi509.bmp"
+
+KAKASHI510              BITMAP                  "..\\RES\\Kakashi510.bmp"
+
+KAKASHI601              BITMAP                  "..\\RES\\Kakashi601.bmp"
+
+KAKASHI602              BITMAP                  "..\\RES\\Kakashi602.bmp"
+
+KAKASHI603              BITMAP                  "..\\RES\\Kakashi603.bmp"
+
+KAKASHI604              BITMAP                  "..\\RES\\Kakashi604.bmp"
+
+KAKASHI605              BITMAP                  "..\\RES\\Kakashi605.bmp"
+
+KAKASHI606              BITMAP                  "..\\RES\\Kakashi606.bmp"
+
+KAKASHI607              BITMAP                  "..\\RES\\Kakashi607.bmp"
+
+KAKASHI608              BITMAP                  "..\\RES\\Kakashi608.bmp"
+
+KAKASHI609              BITMAP                  "..\\RES\\Kakashi609.bmp"
+
+KAKASHI610              BITMAP                  "..\\RES\\Kakashi610.bmp"
+
+KAKASHI611              BITMAP                  "..\\RES\\Kakashi611.bmp"
+
+KAKASHI612              BITMAP                  "..\\RES\\Kakashi612.bmp"
+
+KAKASHI613              BITMAP                  "..\\RES\\Kakashi613.bmp"
+
+KAKASHI614              BITMAP                  "..\\RES\\Kakashi614.bmp"
+
+KAKASHI615              BITMAP                  "..\\RES\\Kakashi615.bmp"
+
+KAKASHI616              BITMAP                  "..\\RES\\Kakashi616.bmp"
+
+KAKASHI617              BITMAP                  "..\\RES\\Kakashi617.bmp"
+
+SkillBackground1        BITMAP                  "..\\RES\\SkillBackground.bmp"
+
+SkillBackground2        BITMAP                  "..\\RES\\SkillBackground2.bmp"
+
+SkillBackground3        BITMAP                  "..\\RES\\SkillBackground3.bmp"
+
+SkillBackground4        BITMAP                  "..\\RES\\SkillBackground4.bmp"
+
+SkillBackground5        BITMAP                  "..\\RES\\SkillBackground5.bmp"
+
+OrochimaruHurt          BITMAP                  "..\\RES\\Orochimaru\\Attacked.bmp"
+
+OrochimaruDie1          BITMAP                  "..\\RES\\Orochimaru\\Die.bmp"
+
+OrochimaruDie2          BITMAP                  "..\\RES\\Orochimaru\\Die2.bmp"
+
+OrochimaruDie3          BITMAP                  "..\\RES\\Orochimaru\\Die3.bmp"
+
+OrochimaruDie4          BITMAP                  "..\\RES\\Orochimaru\\Die4.bmp"
+
+OrochimaruRun1          BITMAP                  "..\\RES\\Orochimaru\\Run1.bmp"
+
+OrochimaruRun2          BITMAP                  "..\\RES\\Orochimaru\\Run2.bmp"
+
+OrochimaruRun3          BITMAP                  "..\\RES\\Orochimaru\\Run3.bmp"
+
+OrochimaruRun4          BITMAP                  "..\\RES\\Orochimaru\\Run4.bmp"
+
+OrochimaruRun5          BITMAP                  "..\\RES\\Orochimaru\\Run5.bmp"
+
+OrochimaruRun6          BITMAP                  "..\\RES\\Orochimaru\\Run6.bmp"
+
+OrochimaruRun7          BITMAP                  "..\\RES\\Orochimaru\\Run7.bmp"
+
+OrochimaruRun8          BITMAP                  "..\\RES\\Orochimaru\\Run8.bmp"
+
+OrochimaruSkill1        BITMAP                  "..\\RES\\Orochimaru\\Skill1.bmp"
+
+OrochimaruSkill2        BITMAP                  "..\\RES\\Orochimaru\\Skill2.bmp"
+
+OrochimaruSkill3        BITMAP                  "..\\RES\\Orochimaru\\Skill3.bmp"
+
+OrochimaruSkill4        BITMAP                  "..\\RES\\Orochimaru\\Skill4.bmp"
+
+OrochimaruSkillUI       BITMAP                  "..\\RES\\Orochimaru\\SkillUI.bmp"
+
+OrochimaruStand1        BITMAP                  "..\\RES\\Orochimaru\\Stand1.bmp"
+
+OrochimaruStand2        BITMAP                  "..\\RES\\Orochimaru\\Stand2.bmp"
+
+OrochimaruStand3        BITMAP                  "..\\RES\\Orochimaru\\Stand3.bmp"
+
+OrochimaruUI            BITMAP                  "..\\RES\\Orochimaru\\UI.bmp"
+
+OrochimaruHurt2         BITMAP                  "..\\RES\\Orochimaru\\Attacked2.bmp"
+
+OrochimaruDie5          BITMAP                  "..\\RES\\Orochimaru\\Die5.bmp"
+
+OrochimaruDie6          BITMAP                  "..\\RES\\Orochimaru\\Die6.bmp"
+
+OrochimaruDie7          BITMAP                  "..\\RES\\Orochimaru\\Die7.bmp"
+
+OrochimaruDie8          BITMAP                  "..\\RES\\Orochimaru\\Die8.bmp"
+
+OrochimaruRun9          BITMAP                  "..\\RES\\Orochimaru\\Run9.bmp"
+
+OrochimaruRun10         BITMAP                  "..\\RES\\Orochimaru\\Run10.bmp"
+
+OrochimaruRun11         BITMAP                  "..\\RES\\Orochimaru\\Run11.bmp"
+
+OrochimaruRun12         BITMAP                  "..\\RES\\Orochimaru\\Run12.bmp"
+
+OrochimaruRun13         BITMAP                  "..\\RES\\Orochimaru\\Run13.bmp"
+
+OrochimaruRun14         BITMAP                  "..\\RES\\Orochimaru\\Run14.bmp"
+
+OrochimaruRun15         BITMAP                  "..\\RES\\Orochimaru\\Run15.bmp"
+
+OrochimaruRun16         BITMAP                  "..\\RES\\Orochimaru\\Run16.bmp"
+
+OrochimaruSkill5        BITMAP                  "..\\RES\\Orochimaru\\Skill5.bmp"
+
+OrochimaruSkill6        BITMAP                  "..\\RES\\Orochimaru\\Skill6.bmp"
+
+OrochimaruSkill7        BITMAP                  "..\\RES\\Orochimaru\\Skill7.bmp"
+
+OrochimaruSkill8        BITMAP                  "..\\RES\\Orochimaru\\Skill8.bmp"
+
+OrochimaruStand4        BITMAP                  "..\\RES\\Orochimaru\\Stand4.bmp"
+
+OrochimaruStand5        BITMAP                  "..\\RES\\Orochimaru\\Stand5.bmp"
+
+OrochimaruStand6        BITMAP                  "..\\RES\\Orochimaru\\Stand6.bmp"
+
+KAKASHI701              BITMAP                  "..\\RES\\Kakashi701.bmp"
+
+KAKASHI702              BITMAP                  "..\\RES\\Kakashi702.bmp"
+
+KAKASHI703              BITMAP                  "..\\RES\\Kakashi703.bmp"
+
+KAKASHI704              BITMAP                  "..\\RES\\Kakashi704.bmp"
+
+KAKASHI705              BITMAP                  "..\\RES\\Kakashi705.bmp"
+
+KAKASHI706              BITMAP                  "..\\RES\\Kakashi706.bmp"
+
+KAKASHI707              BITMAP                  "..\\RES\\Kakashi707.bmp"
+
+KAKASHI708              BITMAP                  "..\\RES\\Kakashi708.bmp"
+
+KAKASHI709              BITMAP                  "..\\RES\\Kakashi709.bmp"
+
+KAKASHI710              BITMAP                  "..\\RES\\Kakashi710.bmp"
+
+KAKASHI711              BITMAP                  "..\\RES\\Kakashi711.bmp"
+
+KAKASHI712              BITMAP                  "..\\RES\\Kakashi712.bmp"
+
+KAKASHI713              BITMAP                  "..\\RES\\Kakashi713.bmp"
+
+KAKASHI801              BITMAP                  "..\\RES\\Kakashi801.bmp"
+
+KAKASHI802              BITMAP                  "..\\RES\\Kakashi802.bmp"
+
+KAKASHI803              BITMAP                  "..\\RES\\Kakashi803.bmp"
+
+KAKASHI804              BITMAP                  "..\\RES\\Kakashi804.bmp"
+
+KAKASHI805              BITMAP                  "..\\RES\\Kakashi805.bmp"
+
+KAKASHI806              BITMAP                  "..\\RES\\Kakashi806.bmp"
+
+KAKASHI807              BITMAP                  "..\\RES\\Kakashi807.bmp"
+
+KAKASHI808              BITMAP                  "..\\RES\\Kakashi808.bmp"
+
+KAKASHI809              BITMAP                  "..\\RES\\Kakashi809.bmp"
+
+KAKASHI901              BITMAP                  "..\\RES\\Kakashi901.bmp"
+
+KAKASHI902              BITMAP                  "..\\RES\\Kakashi902.bmp"
+
+KAKASHI903              BITMAP                  "..\\RES\\Kakashi903.bmp"
+
+KAKASHI904              BITMAP                  "..\\RES\\Kakashi904.bmp"
+
+KAKASHI905              BITMAP                  "..\\RES\\Kakashi905.bmp"
+
+KAKASHI906              BITMAP                  "..\\RES\\Kakashi906.bmp"
+
+KAKASHI907              BITMAP                  "..\\RES\\Kakashi907.bmp"
+
+KAKASHI908              BITMAP                  "..\\RES\\Kakashi908.bmp"
+
+KAKASHI909              BITMAP                  "..\\RES\\Kakashi909.bmp"
+
+KAKASHI910              BITMAP                  "..\\RES\\Kakashi910.bmp"
+
+KAKASHI911              BITMAP                  "..\\RES\\Kakashi911.bmp"
+
+starting_view           BITMAP                  "..\\RES\\starting_view.bmp"
+
+about                   BITMAP                  "..\\RES\\about.bmp"
+
+NejiCombo9              BITMAP                  "..\\RES\\Neji\\Combo9.bmp"
+
+NejiCombo10             BITMAP                  "..\\RES\\Neji\\Combo10.bmp"
+
+NejiCombo11             BITMAP                  "..\\RES\\Neji\\Combo11.bmp"
+
+NejiCombo12             BITMAP                  "..\\RES\\Neji\\Combo12.bmp"
+
+NejiCombo13             BITMAP                  "..\\RES\\Neji\\Combo13.bmp"
+
+NejiCombo14             BITMAP                  "..\\RES\\Neji\\Combo14.bmp"
+
+NejiCombo15             BITMAP                  "..\\RES\\Neji\\Combo15.bmp"
+
+NejiCombo16             BITMAP                  "..\\RES\\Neji\\Combo16.bmp"
+
+NejiCombo17             BITMAP                  "..\\RES\\Neji\\Combo17.bmp"
+
+NejiCombo18             BITMAP                  "..\\RES\\Neji\\Combo18.bmp"
+
+NejiCombo19             BITMAP                  "..\\RES\\Neji\\Combo19.bmp"
+
+NejiCombo21             BITMAP                  "..\\RES\\Neji\\Combo21.bmp"
+
+NejiCombo22             BITMAP                  "..\\RES\\Neji\\Combo22.bmp"
+
+NejiCombo23             BITMAP                  "..\\RES\\Neji\\Combo23.bmp"
+
+NejiCombo24             BITMAP                  "..\\RES\\Neji\\Combo24.bmp"
+
+NejiCombo25             BITMAP                  "..\\RES\\Neji\\Combo25.bmp"
+
+NejiCombo26             BITMAP                  "..\\RES\\Neji\\Combo26.bmp"
+
+NejiCombo27             BITMAP                  "..\\RES\\Neji\\Combo27.bmp"
+
+NejiCombo28             BITMAP                  "..\\RES\\Neji\\Combo28.bmp"
+
+NejiCombo29             BITMAP                  "..\\RES\\Neji\\Combo29.bmp"
+
+NejiCombo30             BITMAP                  "..\\RES\\Neji\\Combo30.bmp"
+
+NejiCombo31             BITMAP                  "..\\RES\\Neji\\Combo31.bmp"
+
+NejiCombo32             BITMAP                  "..\\RES\\Neji\\Combo32.bmp"
+
+NejiCombo33             BITMAP                  "..\\RES\\Neji\\Combo33.bmp"
+
+NejiCombo34             BITMAP                  "..\\RES\\Neji\\Combo34.bmp"
+
+NejiCombo35             BITMAP                  "..\\RES\\Neji\\Combo35.bmp"
+
+OrochimaruCombo1        BITMAP                  "..\\RES\\Orochimaru\\Combo.bmp"
+
+OrochimaruCombo2        BITMAP                  "..\\RES\\Orochimaru\\Combo2.bmp"
+
+OrochimaruCombo3        BITMAP                  "..\\RES\\Orochimaru\\Combo3.bmp"
+
+OrochimaruCombo4        BITMAP                  "..\\RES\\Orochimaru\\Combo4.bmp"
+
+OrochimaruCombo5        BITMAP                  "..\\RES\\Orochimaru\\Combo5.bmp"
+
+OrochimaruCombo6        BITMAP                  "..\\RES\\Orochimaru\\Combo6.bmp"
+
+OrochimaruCombo7        BITMAP                  "..\\RES\\Orochimaru\\Combo7.bmp"
+
+OrochimaruCombo8        BITMAP                  "..\\RES\\Orochimaru\\Combo8.bmp"
+
+OrochimaruCombo9        BITMAP                  "..\\RES\\Orochimaru\\Combo9.bmp"
+
+OrochimaruCombo10       BITMAP                  "..\\RES\\Orochimaru\\Combo10.bmp"
+
+OrochimaruCombo11       BITMAP                  "..\\RES\\Orochimaru\\Combo11.bmp"
+
+OrochimaruCombo12       BITMAP                  "..\\RES\\Orochimaru\\Combo12.bmp"
+
+OrochimaruCombo13       BITMAP                  "..\\RES\\Orochimaru\\Combo13.bmp"
+
+OrochimaruCombo14       BITMAP                  "..\\RES\\Orochimaru\\Combo14.bmp"
+
+OrochimaruCombo15       BITMAP                  "..\\RES\\Orochimaru\\Combo15.bmp"
+
+OrochimaruCombo16       BITMAP                  "..\\RES\\Orochimaru\\Combo16.bmp"
+
+OrochimaruCombo17       BITMAP                  "..\\RES\\Orochimaru\\Combo17.bmp"
+
+OrochimaruCombo18       BITMAP                  "..\\RES\\Orochimaru\\Combo18.bmp"
+
+OrochimaruCombo19       BITMAP                  "..\\RES\\Orochimaru\\Combo19.bmp"
+
+OrochimaruCombo20       BITMAP                  "..\\RES\\Orochimaru\\Combo20.bmp"
+
+OrochimaruCombo21       BITMAP                  "..\\RES\\Orochimaru\\Combo21.bmp"
+
+OrochimaruCombo22       BITMAP                  "..\\RES\\Orochimaru\\Combo22.bmp"
+
+OrochimaruCombo23       BITMAP                  "..\\RES\\Orochimaru\\Combo23.bmp"
+
+OrochimaruCombo24       BITMAP                  "..\\RES\\Orochimaru\\Combo24.bmp"
+
+OrochimaruCombo25       BITMAP                  "..\\RES\\Orochimaru\\Combo25.bmp"
+
+OrochimaruCombo26       BITMAP                  "..\\RES\\Orochimaru\\Combo26.bmp"
+
+OrochimaruCombo27       BITMAP                  "..\\RES\\Orochimaru\\Combo27.bmp"
+
+OrochimaruCombo28       BITMAP                  "..\\RES\\Orochimaru\\Combo28.bmp"
+
+OrochimaruCombo29       BITMAP                  "..\\RES\\Orochimaru\\Combo29.bmp"
+
+OrochimaruCombo30       BITMAP                  "..\\RES\\Orochimaru\\Combo30.bmp"
+
+OrochimaruCombo31       BITMAP                  "..\\RES\\Orochimaru\\Combo31.bmp"
+
+OrochimaruCombo32       BITMAP                  "..\\RES\\Orochimaru\\Combo32.bmp"
+
+OrochimaruCombo33       BITMAP                  "..\\RES\\Orochimaru\\Combo33.bmp"
+
+OrochimaruCombo34       BITMAP                  "..\\RES\\Orochimaru\\Combo34.bmp"
+
+OrochimaruCombo35       BITMAP                  "..\\RES\\Orochimaru\\Combo35.bmp"
+
+OrochimaruCombo36       BITMAP                  "..\\RES\\Orochimaru\\Combo36.bmp"
+
+final01                 BITMAP                  "..\\RES\\final01.bmp"
+
+final02                 BITMAP                  "..\\RES\\final02.bmp"
+
+final03                 BITMAP                  "..\\RES\\final03.bmp"
+
+final04                 BITMAP                  "..\\RES\\final04.bmp"
+
+final05                 BITMAP                  "..\\RES\\final05.bmp"
+
+final06                 BITMAP                  "..\\RES\\final06.bmp"
+
+final07                 BITMAP                  "..\\RES\\final07.bmp"
+
+final08                 BITMAP                  "..\\RES\\final08.bmp"
+
+final09                 BITMAP                  "..\\RES\\final09.bmp"
+
+final10                 BITMAP                  "..\\RES\\final10.bmp"
+
+vic_01                  BITMAP                  "..\\RES\\vic_01.bmp"
+
+vic_02                  BITMAP                  "..\\RES\\vic_02.bmp"
+
+vic_03                  BITMAP                  "..\\RES\\vic_03.bmp"
+
+vic_04                  BITMAP                  "..\\RES\\vic_04.bmp"
+
+vic_05                  BITMAP                  "..\\RES\\vic_05.bmp"
+
+vic_06                  BITMAP                  "..\\RES\\vic_06.bmp"
+
+vic_07                  BITMAP                  "..\\RES\\vic_07.bmp"
+
+vic_08                  BITMAP                  "..\\RES\\vic_08.bmp"
+
+vic_09                  BITMAP                  "..\\RES\\vic_09.bmp"
+
+vic_10                  BITMAP                  "..\\RES\\vic_10.bmp"
+
+vic_11                  BITMAP                  "..\\RES\\vic_11.bmp"
+
+vic_12                  BITMAP                  "..\\RES\\vic_12.bmp"
+
+vic_13                  BITMAP                  "..\\RES\\vic_13.bmp"
+
+vic2_01                 BITMAP                  "..\\RES\\vic2_01.bmp"
+
+vic2_02                 BITMAP                  "..\\RES\\vic2_02.bmp"
+
+vic2_03                 BITMAP                  "..\\RES\\vic2_03.bmp"
+
+vic2_04                 BITMAP                  "..\\RES\\vic2_04.bmp"
+
+vic2_05                 BITMAP                  "..\\RES\\vic2_05.bmp"
+
+vic2_06                 BITMAP                  "..\\RES\\vic2_06.bmp"
+
+vic2_07                 BITMAP                  "..\\RES\\vic2_07.bmp"
+
+vic2_08                 BITMAP                  "..\\RES\\vic2_08.bmp"
+
+vic2_09                 BITMAP                  "..\\RES\\vic2_09.bmp"
+
+vic2_10                 BITMAP                  "..\\RES\\vic2_10.bmp"
+
+vic2_11                 BITMAP                  "..\\RES\\vic2_11.bmp"
+
+vic2_12                 BITMAP                  "..\\RES\\vic2_12.bmp"
+
+vic2_13                 BITMAP                  "..\\RES\\vic2_13.bmp"
+
+vic2_14                 BITMAP                  "..\\RES\\vic2_14.bmp"
+
+vic2_15                 BITMAP                  "..\\RES\\vic2_15.bmp"
+
+vic2_16                 BITMAP                  "..\\RES\\vic2_16.bmp"
+
+vic2_17                 BITMAP                  "..\\RES\\vic2_17.bmp"
+
+map6                    BITMAP                  "..\\RES\\map6.bmp"
+
+map6mainmenu            BITMAP                  "..\\RES\\map6mainmenu.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GAMECURSOR          CURSOR                  "..\\res\\gamecurs.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\res\\game.ico"
+
+#endif    // 中文 (繁體，台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英文 (美國) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "..\\res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_GAMETYPE            ICON                    "..\\res\\gameDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUTTON_FULLSCREEN
+    /*BUTTON      ID_BUTTON_PAUSE
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE*/
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        //MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "Pause\tCtrl+Q",               ID_FILE_PAUSE
+        /*MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR*/
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tCtrl+F",         ID_TOGGLE_FULLSCREEN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About game...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "F",            ID_TOGGLE_FULLSCREEN,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_PAUSE,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 218, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About game"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Game Framework Version 4.8",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2020",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,172,7,39,14,WS_GROUP
+    LTEXT           "Liense: GPL",IDC_STATIC,39,35,119,8
+    PUSHBUTTON      "ReadMe",IDC_README,172,24,39,13,WS_GROUP
+    LTEXT           "Author: WEN-LI OU YANG, CHENG-HUNG LI, CSIE Department, NTUT",IDC_STATIC,39,47,159,8
+    LTEXT           "http://www.ntut.edu.tw/~wkchen/game",IDC_STATIC,39,60,159,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "game MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "game"
+            VALUE "LegalCopyright", "Copyright (C) 1999"
+            VALUE "OriginalFilename", "game.EXE"
+            VALUE "ProductName", "game Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "game\n\nGame\n\n\nGame.Document\nGame Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "game"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_FULLSCREEN    "Full Screen\nFull Screen"
+    ID_BUTTON_PAUSE         "Pause Game\nPause Game"
+    ID_BUTTON_UNITTEST      "Perform Unit Test"
+END
+
+#endif    // 英文 (美國) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\game.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
