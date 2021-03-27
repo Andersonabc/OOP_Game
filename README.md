@@ -1,6 +1,5 @@
 # OOP_Game
-
-icefireman_v3 document內有framework相關簡介.
+[icefireman_v3 document](https://github.com/Andersonabc/OOP_Game/tree/main/icefireman_v3/game4.9)為主要程式碼，包括framework相關簡介.
 
 #動機
 
